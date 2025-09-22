@@ -11,12 +11,12 @@ Dieses Repository enthält die Datenanalyse und die Entwicklung eines Business I
 
 Das Projekt konzentriert sich auf vier Hauptanalysen:
 
-1.  **Trafficanalyse:** Ursprung und Volumen des Shop-Besucherverkehrs verstehen.
-2.  **Zielgruppenanalyse:** Demografische und verhaltensbezogene Muster der Besucher identifizieren.
-3.  **Absprunganalyse:** Gründe für das vorzeitige Verlassen des Shops ("Bounce Rate") analysieren.
-4.  **Conversion-Analyse:** Optimierung der Conversion-Rate und Verringerung der Abbruchrate beim Kaufabschluss.
+1.  **Trafficanalyse:** Ursprung und Volumen des Shop-Besucherverkehrs verstehen. (done)
+2.  **Zielgruppenanalyse:** Demografische und verhaltensbezogene Muster der Besucher identifizieren. (optional)
+3.  **Absprunganalyse:** Gründe für das vorzeitige Verlassen des Shops ("Bounce Rate") analysieren. (optional)
+4.  **Conversion-Analyse:** Optimierung der Conversion-Rate und Verringerung der Abbruchrate beim Kaufabschluss. (optional)
 
-Das Endziel ist die Bereitstellung eines PowerBI-Dashboards, das diese KPIs visualisiert und datengestützte Entscheidungen ermöglicht.
+Das Endziel ist die Bereitstellung eines PowerBI-Dashboards, das die "done" KPIs visualisiert und datengestützte Entscheidungen ermöglicht.
 
 ## 📁 Datenbasis
 
@@ -37,7 +37,7 @@ Das Endziel ist die Bereitstellung eines PowerBI-Dashboards, das diese KPIs visu
 ## 📊 Erwartetes Ergebnis
 
 Das Endprodukt dieses Projekts ist ein umfassendes PowerBI-Dashboard, das:
-*   Die wichtigsten KPIs zu den vier Säulen übersichtlich visualisiert.
+*   Die wichtigsten KPIs zur Säule "Traffic" optional zu den weiteren drei Säulen übersichtlich visualisiert.
 *   Interaktiv und filterbar ist.
 *   Einfach um neue Daten aktualisiert werden kann (Skripte sind entsprechend zu gestalten).
 *   Handlungsempfehlungen, insbesondere für die Preisgestaltung, ableitet.
