@@ -1,0 +1,7 @@
+date : Datum
+sessions : Anzahl Sitzungen 
+sugg_plt : Empfehlungsplattform
+lnd_pg : Landing-Page URL
+sess_add_cart : Sitzungen bei denen in den Warenkorb gelegt wurden
+sess_co  : Sitzungen bis zum Check-Out
+sess_co_done : Sitzungen bis zum abgeschlossenen Check-Out
