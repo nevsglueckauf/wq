@@ -1,4 +1,8 @@
-# Setup Beispiel 
+<img src="../Dashboards/python/assets/whisk_rox.png">
+
+# Whiskey on the Rocks
+
+## Setup Beispiel 
 
 Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.) -> für Wintendo Boxen mit Hinweisen
 
@@ -13,12 +17,12 @@ Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.) -> für Wintendo Boxen 
 ## VENV
 
 ### Virtuelle Umgebung einrichten
-<code>sven@Thanos gesundheit% </code><kbd>python3 -m venv .venv</kbd>
+<code>sven@Thanos wq% </code><kbd>python3 -m venv .venv</kbd>
 
 ### Virtuelle Umgebung aktivieren
-<code>sven@Thanos gesundheit% </code><kbd>source .venv/bin/activate</kbd>
+<code>sven@Thanos wq% </code><kbd>source .venv/bin/activate</kbd>
 
-<code><span style="color:green">(.venv)</span> sven@Thanos gesundheit% </code>
+<code><span style="color:green">(.venv)</span> sven@Thanos wq% </code>
 
 #### Für Wintendo Boxen:
 
@@ -28,17 +32,17 @@ Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.) -> für Wintendo Boxen 
 
 ## Dependencies auflösen
 
-<code><span style="color:green">(.venv)</span> sven@Thanos gesundheit% </code><kbd>pip install -r req.txt</kbd>
+<code><span style="color:green">(.venv)</span> sven@Thanos wq% </code><kbd>pip install -r req.txt</kbd>
 
 ## App starten
 Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
 
 ```sh
-(.venv) svenschrodt@Thanos gesundheit% python app.py > /dev/null  2>&1 &
+(.venv) svenschrodt@Thanos wq% python app.py > /dev/null  2>&1 &
 ```
 
 #### Für Wintendo Boxen:
 
 ```PS
-Z:\gesundheit> py.exe app.py
+Z:\wq> py.exe app.py
 ```
