@@ -38,4 +38,21 @@ flowchart TD
     Sven@{ shape: stadium, label:"Foo"}
     Zebra@{ shape:tag-doc, label:"Volg"}
     Zeus@{ icon: "fa:user", form: "square", label: "User Icon", pos: "t", h: 60 }
+
+    A-->B
+    Claude & Data--> Sven & ZEus
+```
+
+```mermaid
+---
+config:
+  look: handDrawn
+  
+---
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
 ```

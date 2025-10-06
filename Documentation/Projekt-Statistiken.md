@@ -101,6 +101,8 @@ SUM:                            37            130           1523          12583
 
 ```
 
+## Git 
+
 ```mermaid
 gitGraph:
     commit "initialer Commit"
@@ -115,4 +117,13 @@ gitGraph:
     commit
     branch b2
     commit
+```
+
+```mermaid
+ graph TD
+        A[Client] --> B[Load Balancer]
+        B --> C[Server01]
+        B --> D[Server02]
+        E(fa:fa-camera-retro perhaps?)  -->A
+        Note right of D: $$\sqrt{2+2}=\sqrt{4}=2$$
 ```
