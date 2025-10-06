@@ -1,6 +1,8 @@
 # <img src="../Dashboards/python/assets/whisk_rox.png"> Whiskey on the Rocks
 
-## Lines of Code
+## Projekt-Statistiken
+
+### Lines of Code
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
@@ -15,7 +17,7 @@ CSS                              1              3              0             19
 SUM:                            37            130           1523          12583
 
 ```
-## Dateistruktur
+#-# Dateistruktur
 
 ```
 ├── Dashboards
@@ -117,13 +119,4 @@ gitGraph:
     commit
     branch b2
     commit
-```
-
-```mermaid
- graph TD
-        A[Client] --> B[Load Balancer]
-        B --> C[Server01]
-        B --> D[Server02]
-        E(fa:fa-camera-retro perhaps?)  -->A
-        Note right of D: $$\sqrt{2+2}=\sqrt{4}=2$$
 ```
