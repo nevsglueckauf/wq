@@ -100,3 +100,19 @@ SUM:                            37            130           1523          12583
 ├── Whiskyprojekt.knwf
 
 ```
+
+```mermaid
+gitGraph:
+    commit "initialer Commit"
+    branch newbranch
+    checkout newbranch
+    commit id:"1111"
+    commit tag:"test"
+    checkout main
+    commit type: HIGHLIGHT
+    commit
+    merge newbranch
+    commit
+    branch b2
+    commit
+```

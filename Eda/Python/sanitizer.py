@@ -1,3 +1,7 @@
+# Sanitizer Script für CSV Dateien
+#
+# AUTHOR Sven 
+
 import pandas as pd
 import glob
 name = "2019-Nov.csv"
