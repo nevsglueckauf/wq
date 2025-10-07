@@ -2,7 +2,7 @@
 
 ## Datenqualität
 
-### Datenbereinigungs-Pipelineline
+### Datenfluß
 
 ```mermaid
 sequenceDiagram
