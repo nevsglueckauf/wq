@@ -8,7 +8,8 @@ class DD:
          "Sessions": "Sitzungsanalyse",
          "Sales": "Umsätze n. Vertriebskan.",
          "Upload" : "Dateiverwaltung",
-         "Products": "Produkte"
+         "Products": "Produkte",
+         "Test": "Lab page"
     }
 
     col_transl = {

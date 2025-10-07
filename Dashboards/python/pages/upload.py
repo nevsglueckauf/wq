@@ -8,6 +8,9 @@ import base64
 import datetime
 import io
 
+s = str(datetime.datetime.now())
+fn = 'uploads/' + s[:16].replace(' ', '_').replace(':', '').replace('-', '') + '.csv'
+
 register_page(__name__)
 sub_title = "Dateiverwaltung"
 
@@ -45,6 +48,7 @@ def parse_contents(contents, filename, date):
             # Assume that the user uploaded a CSV file
             df = pd.read_csv(
                 io.StringIO(decoded.decode('utf-8')))
+            df.to_csv(fn, index=False)
         elif 'xls' in filename:
             # Assume that the user uploaded an excel file
             df = pd.read_excel(io.BytesIO(decoded))
@@ -52,15 +56,25 @@ def parse_contents(contents, filename, date):
         print(e)
         return html.Div([
             'There was an error processing this file.'
-        ])
+        ])  
 
     return html.Div([
         html.H5(filename),
         html.H6(datetime.datetime.fromtimestamp(date)),
 
-        dash_table.DataTable(
-            df.to_dict('records'),
-            [{'name': i, 'id': i} for i in df.columns]
+        # dash_table.DataTable(
+        #     df.to_dict('records'),
+        #     [{'name': i, 'id': i} for i in df.columns]
+        # ),
+        
+         dag.AgGrid(
+            id="main_grid_basic",
+            rowData=df.to_dict("records"),
+            columnDefs=[
+                {"field": x, "headerName": x} for x in df.columns
+            ],
+            columnSize="responsiveSizeToFit",
+            dashGridOptions={"pagination": True},
         ),
 
         html.Hr(),  # horizontal line
