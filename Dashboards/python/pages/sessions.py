@@ -13,7 +13,7 @@ df = pd.read_csv("exporte/sessions.csv")
 df["datum"] = pd.to_datetime(df["datum"], format="%Y-%m-%d")
 
 df["Sitzung_min"] = round(df["session_duration"] / 60, 2)
-print(df.columns)
+#print(df.columns)
 # fig_2 = fig = px.line(df_f, x="Jahr", y="Anzahl")
 
 # Anfangsbelegung

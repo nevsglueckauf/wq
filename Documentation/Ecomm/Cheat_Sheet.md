@@ -24,3 +24,6 @@ Misst den Gesamtwert, den ein Kunde während seiner gesamten Beziehung zum Shop 
 
 - **CTR** (_Click-Through-Rate_) ist die Prozentzahl der _Nutzer_, die eine Anzeige anklicken, nachdem sie sie gesehen haben, während 
 - **CPC** (_Cost per Click_) der Betrag ist, den ein _Werbetreibender_ für jeden Klick auf seine Anzeige zahlt.
+
+
+$CPA * CVR = CPC$

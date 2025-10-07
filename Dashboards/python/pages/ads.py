@@ -16,6 +16,8 @@ col_chosen = ['Impressionen']
  
 fig = px.line(df, x="Datum", y=col_chosen, color='Provider')
 
+#fig23 = px.line(df.groupby('Datum')[col_chosen].sum(), x="Datum", y=col_chosen)
+
 
 register_page(__name__)
 

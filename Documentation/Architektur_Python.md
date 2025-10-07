@@ -8,11 +8,11 @@
 sequenceDiagram
 autonumber
     
-    box green User, Browser
+    box lightblue User, Browser
     participant User-Agent
     end
 
-    box lightblue  Python & Libs
+    box ORANGE  Python & Libs
     participant Pandas
     participant Dash
     participant Plotly
