@@ -10,6 +10,7 @@ class DD:
         "Upload": "Dateiverwaltung",
         "Products": "Produkte",
         "Test": "Lab page",
+        "Ads": "Werbeerfolge",
     }
 
     col_transl = {
