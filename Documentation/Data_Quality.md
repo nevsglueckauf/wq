@@ -25,8 +25,8 @@ sequenceDiagram
     end 
 
     box lightgreen  Dashboards
-    actor dashdas
-    actor dashpbi
+    actor Web
+    actor PowerBI
     end 
 
     inp-->>Pipeline: Dateityp checken
@@ -45,7 +45,13 @@ sequenceDiagram
     dash->>fs: Dateiimport
     RDBMS->>fs: Dateiimport
     
-    
+    Web->>knime: Dateiimport
+    Web->>RDBMS: Dateiimport
+    Web->>dash: Dateiimport
+    Web->>fs: Dateiimport
+    PowerBI->fs: Dateiimport
+
+
 
     
 
