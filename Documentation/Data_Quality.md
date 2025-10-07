@@ -7,14 +7,15 @@
 ```mermaid
 sequenceDiagram
     participant inp as Neue Datei
+    box ORANGE  Python &  File IO
     participant pipe as Pipeline
     participant fs as Dateisystem
     participant sanitizer as Datenbereinigung Python
-
+    end 
     inp-->>pipe: Dateityp checken
-     alt is CSV
+     alt CSV?
             pipe->>fs: Temp. Ablage
-     else is XLSX
+     else XLSX?
             pipe->>fs: Temp. Ablage
             pipe->>fs: Konvertierung nach CVS
     end
