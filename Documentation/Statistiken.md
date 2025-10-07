@@ -3,7 +3,11 @@
 ## Projekt-Statistiken
 
 ### Lines of Code
-```
+
+<details>
+    <summary>Anzeigen</summary><p>
+<pre>
+
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -16,8 +20,9 @@ SQL                              2             14              5             89
 CSS                              3              5              0             55
 -------------------------------------------------------------------------------
 SUM:                           110            300           8405          33351
+</pre>
+</p></details>
 
-```
 ### Dateistruktur
 <details>
     <summary>Dateien anzeigen</summary>
