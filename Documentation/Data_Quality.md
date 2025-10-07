@@ -9,7 +9,7 @@ sequenceDiagram
     autonumber
     
     box orange Neue Dateien
-    participant inp@{ "type" : "entity" }
+    participant inp@{ "type" : "collections" }
     end
     box lightblue  Python &  File IO
     participant Pipeline@{ "type" : "control" }
@@ -45,11 +45,13 @@ sequenceDiagram
     dash->>fs: Dateiimport
     RDBMS->>fs: Dateiimport
     
+    par Web->knime
     Web->>knime: Dateiimport
     Web->>RDBMS: Dateiimport
     Web->>dash: Dateiimport
     Web->>fs: Dateiimport
     PowerBI->fs: Dateiimport
+    end
 
 
 
