@@ -19,8 +19,8 @@ sequenceDiagram
             pipe->>fs: Konvertierung nach CVS
     end
     Note right of sanitizer: Checks durchführen
-    sanitzer->>fs: Datentypen korr. [Falsche Dezimaltrenner?]
-    sanitzer->>fs: Daten typen korr. [str->float, str->datetime]
+    sanitizer->>fs: Datentypen korr. [Falsche Dezimaltrenner?]
+    sanitizer->>fs: Daten typen korr. [str->float, str->datetime]
     
     
 
