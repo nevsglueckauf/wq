@@ -17,7 +17,7 @@ sequenceDiagram
     participant knime as Knime
     participant pbi as Power BI
     participant dash as Plotly, Flask, React
-    participant sql as RDBMS
+    participant RDBMS@{ "type" : "database" }
     end 
 
     inp-->>pipe: Dateityp checken
@@ -34,7 +34,7 @@ sequenceDiagram
     knime->>fs: Dateiimport
     pbi->>fs: Dateiimport
     dash->>fs: Dateiimport
-    sql->>fs: Dateiimport
+    RDBMS->>fs: Dateiimport
     
     
 
