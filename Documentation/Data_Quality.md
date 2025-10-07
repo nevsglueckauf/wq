@@ -24,6 +24,11 @@ sequenceDiagram
     participant RDBMS@{ "type" : "database" }
     end 
 
+    box lightgreen  Dashboards
+    actor dashdas
+    actor dashpbi
+    end 
+
     inp-->>Pipeline: Dateityp checken
      alt CSV?
             Pipeline->>fs: Temp. Ablage
