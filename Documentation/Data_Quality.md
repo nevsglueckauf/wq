@@ -45,13 +45,16 @@ sequenceDiagram
     dash->>fs: Dateiimport
     RDBMS->>fs: Dateiimport
     
-    par Web->knime
+    par Web to knime
     Web->>knime: Lesezugriff
+    and Web to RDBMS
     Web->>RDBMS: Lesezugriff
+    and Web to dash
     Web->>dash: Lesezugriff
+    and Web to fs
     Web->>fs: Lesezugriff
-    PowerBI->fs: Lesezugriff
     end
+    PowerBI->fs: Lesezugriff
 
 
 
