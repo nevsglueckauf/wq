@@ -1,4 +1,4 @@
-# <img src="assets/whisk_rox.png"> Whiskey on the Rocks
+# <img src="assets/whisk_rox.png"> „Data on the rocks“
 
 > [!CAUTION]  
 > Hier (```Dashboards/Python```) wird noch aufgeräumt und die Dateistruktur ggf. angepasst
