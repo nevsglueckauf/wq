@@ -7,8 +7,11 @@
 ```mermaid
 sequenceDiagram
     autonumber
+    
+    box orange Neue Dateien
     participant inp@{ "type" : "entity" }
-    box ORANGE  Python &  File IO
+    end
+    box lightblue  Python &  File IO
     participant Pipeline@{ "type" : "control" }
     participant fs@{ "type" : "queue" }
     participant Datenbereinigung@{ "type" : "control" }
