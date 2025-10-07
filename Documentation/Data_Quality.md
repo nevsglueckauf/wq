@@ -12,6 +12,14 @@ sequenceDiagram
     participant fs as Dateisystem
     participant sanitizer as Datenbereinigung Python
     end 
+
+    box lightgray  Datenkonsumenten
+    participant knime as Knime
+    participant pbi as Power BI
+    participant dash as Plotly, Flask, React
+    participant sql as RDBMS
+    end 
+
     inp-->>pipe: Dateityp checken
      alt CSV?
             pipe->>fs: Temp. Ablage
@@ -22,6 +30,11 @@ sequenceDiagram
     Note right of sanitizer: Checks durchführen
     sanitizer->>fs: Datentypen korr. [Falsche Dezimaltrenner?]
     sanitizer->>fs: Daten typen korr. [str->float, str->datetime]
+
+    knime->>fs: Dateiimport
+    pbi->>fs: Dateiimport
+    dash->>fs: Dateiimport
+    sql->>fs: Dateiimport
     
     
 
