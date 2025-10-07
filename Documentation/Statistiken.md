@@ -194,7 +194,8 @@ SUM:                           110            300           8405          33351
 </details>
 
 ## Git History (exemplarisch)
-
+<details>
+<summary>Anzeigen</summary>
 ```mermaid
 gitGraph:
     commit "initialer Commit"
@@ -210,3 +211,4 @@ gitGraph:
     branch b2
     commit
 ```
+</details>
