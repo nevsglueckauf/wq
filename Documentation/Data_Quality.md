@@ -46,11 +46,11 @@ sequenceDiagram
     RDBMS->>fs: Dateiimport
     
     par Web->knime
-    Web->>knime: Dateiimport
-    Web->>RDBMS: Dateiimport
-    Web->>dash: Dateiimport
-    Web->>fs: Dateiimport
-    PowerBI->fs: Dateiimport
+    Web->>knime: Lesezugriff
+    Web->>RDBMS: Lesezugriff
+    Web->>dash: Lesezugriff
+    Web->>fs: Lesezugriff
+    PowerBI->fs: Lesezugriff
     end
 
 
