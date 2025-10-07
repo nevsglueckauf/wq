@@ -25,7 +25,7 @@ SUM:                           110            300           8405          33351
 </p>
 </details>
 
-### Dateistruktur
+### Dateien
 <details>
     <summary>Dateien anzeigen</summary>
 <p><pre>
