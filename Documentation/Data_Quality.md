@@ -2,34 +2,35 @@
 
 ## Datenqualität
 
-### Datenbereinigungs-Pipeline
+### Datenbereinigungs-Pipelineline
 
 ```mermaid
 sequenceDiagram
-    participant inp as Neue Datei
+    autonumber
+    participant inp@{ "type" : "entity" }
     box ORANGE  Python &  File IO
-    participant pipe as Pipeline
-    participant fs as Dateisystem
-    participant sanitizer as Datenbereinigung Python
+    participant Pipeline@{ "type" : "control" }
+    participant fs@{ "type" : "queue" }
+    participant Datenbereinigung@{ "type" : "control" }
     end 
 
     box lightgray  Datenkonsumenten
-    participant knime as Knime
-    participant pbi as Power BI
-    participant dash as Plotly, Flask, React
+    participant knime@{ "type" : "boundary" }
+    participant pbi@{ "type" : "boundary" }
+    participant dash@{ "type" : "boundary" }
     participant RDBMS@{ "type" : "database" }
     end 
 
-    inp-->>pipe: Dateityp checken
+    inp-->>Pipeline: Dateityp checken
      alt CSV?
-            pipe->>fs: Temp. Ablage
+            Pipeline->>fs: Temp. Ablage
      else XLSX?
-            pipe->>fs: Temp. Ablage
-            pipe->>fs: Konvertierung nach CVS
+            Pipeline->>fs: Temp. Ablage
+            Pipeline->>fs: Konvertierung nach CVS
     end
-    Note right of sanitizer: Checks durchführen
-    sanitizer->>fs: Datentypen korr. [Falsche Dezimaltrenner?]
-    sanitizer->>fs: Daten typen korr. [str->float, str->datetime]
+    Note right of Datenbereinigung: Checks durchführen
+    Datenbereinigung->>fs: Datentypen korr. [Falsche Dezimaltrenner?]
+    Datenbereinigung->>fs: Daten typen korr. [str->float, str->datetime]
 
     knime->>fs: Dateiimport
     pbi->>fs: Dateiimport
