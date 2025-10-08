@@ -3,14 +3,19 @@
 # AUTHOR Sven Schrodt
 # SINCE 2025-09-26
 class DD:
-
+    """ Data Dictionary class matching names<->labels(@GUI) and vice versa
+    """
+    
     pages = {
         "Sessions": "Sitzungsanalyse",
         "Sales": "Umsätze n. Vertriebskan.",
-        "Upload": "Dateiverwaltung",
+        "Upload": "Admin Panel",
         "Products": "Produkte",
         "Test": "Lab page",
         "Ads": "Werbeerfolge",
+        "Ml": "ML Stuff",
+        "Kpi": "KPIs",
+        "Funnel": "Event Tpe (Funnel)"
     }
 
     col_transl = {

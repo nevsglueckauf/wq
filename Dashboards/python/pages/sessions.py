@@ -6,6 +6,10 @@ import dash_ag_grid as dag
 from dd import DD
 from dash import dcc
 from datetime import date
+import plotly.graph_objects as go
+
+
+ 
 
 
 sub_title = "Analyse der Sitzungen"
@@ -20,12 +24,19 @@ df["Sitzung_min"] = round(df["session_duration"] / 60, 2)
 # tmp = list(df.columns)
 # Jahr ist obligatorisch (auf der X-Achse)
 # del tmp[0]
-
+fig_scatt = go.Figure(data=go.Scatter(
+        x= df["datum"],
+        y=df["sessions"],
+        error_y=dict(
+            type='data', # value of error bar given in data coordinates
+            array=df["sess_co_done"],
+            visible=True)
+    ))
 
 opt = [{"label": k, "value": k} for k in DD.session_y]
-start_val = DD.session_y
-start_val = ["sessions"]
-fig = px.line(df, x="datum", y=start_val)
+start_val = 'sessions'
+#start_val = ["sessions"]
+fig = px.bar(df, x="datum", y=start_val, color='sug_platform')
 
 register_page(__name__)
 
@@ -35,7 +46,7 @@ register_page(__name__)
     Input(component_id="controls-and-check-item", component_property="value"),
 )
 def update_graph(col_chosen):
-    fig = px.line(df, x="datum", y=col_chosen, title=sub_title)
+    fig = px.bar(df, x="datum", y=col_chosen, title=sub_title)
     return fig
 
 
@@ -43,6 +54,7 @@ layout = html.Div(
     [
         html.H3(sub_title),
         html.H4("Sitzungsverfolgung"),
+        dcc.Graph(figure=fig_scatt, id="sess_scatter"),
         html.Div(
             className="custom-dropdown-style-2",
             children=[

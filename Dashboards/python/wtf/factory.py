@@ -105,3 +105,6 @@ class TabFactory:
 
 # d = TabFactory.df()
 # print(d.dtypes)
+
+if __name__ == "__main__":
+     print(help(TabFactory))

@@ -12,3 +12,10 @@
 
 - Test Multitab SPA
 - ...
+
+
+<time datetime="2025-10-02 11:39:00">2.10.2025</time>
+
+- Vorbereitung Prediction-Modelle für 
+    - Sitzungsdaten
+    - Umsatzdaten

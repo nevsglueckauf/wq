@@ -25,7 +25,7 @@ theme_toggle = dmc.Switch(
 )
 
 app = Dash()
-
+app.title ="App with Dash and them switch"
 app.layout = dmc.MantineProvider(
     [
         html.H1("Page mit Darkmode Switch"),

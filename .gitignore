@@ -209,3 +209,4 @@ grube.*
 .DS_Store
 tmp/
 .venv/
+BigDataSets/*

@@ -7,11 +7,16 @@ import dash_ag_grid as dag
 from dd import DD
     
 sub_title = "Werbeerfolgsmessung"
-df = pd.read_csv('output/ads_all.csv')
+df = pd.read_csv('output/sorted_all_ads.csv') # all_days_both_merged.csv
 df['Datum'] = pd.to_datetime(df['Datum'], format='%Y-%m-%d')
 
 colz = ['Datum', 'Impressionen','Klicks','Kosten','CPC_Manuell','CRT_Manuell', 'Provider']
+
+flt_colz = colz = ['Impressionen','Klicks','Kosten','CPC_Manuell','CRT_Manuell']
+
 col_chosen = ['Impressionen']
+
+
 #opt = [{"label": k, "value": k} for k in colz]
  
 fig = px.line(df, x="Datum", y=col_chosen, color='Provider')
@@ -38,7 +43,7 @@ layout = html.Div(
         
         html.Div(className='custom-dropdown-style', children=[dcc.Dropdown(
             id="ads-controls-and-check-item",
-            options=colz,
+            options=flt_colz,
             value=col_chosen,
             multi=True,
             className='dropdown-class',
