@@ -3,6 +3,7 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input, register_
 import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
+import plotly.graph_objects as go
     
 from dd import DD
     
@@ -10,17 +11,23 @@ sub_title = "Werbeerfolgsmessung"
 df = pd.read_csv('output/sorted_all_ads.csv') # all_days_both_merged.csv
 df['Datum'] = pd.to_datetime(df['Datum'], format='%Y-%m-%d')
 
-colz = ['Datum', 'Impressionen','Klicks','Kosten','CPC_Manuell','CRT_Manuell', 'Provider']
+colz = ['Datum', 'Impressionen','Klicks','Kosten','CPC','CTR', 'Provider']
 
-flt_colz = colz = ['Impressionen','Klicks','Kosten','CPC_Manuell','CRT_Manuell']
+flt_colz = colz = ['Impressionen','Klicks','Kosten','CPC','CTR']
 
 col_chosen = ['Impressionen']
 
-
+sales = pd.read_csv("exporte/total_sales_month.csv")
+df['Datum'] = pd.to_datetime(sales['Datum'], format='%Y-%m-%d')
 #opt = [{"label": k, "value": k} for k in colz]
  
-fig = px.line(df, x="Datum", y=col_chosen, color='Provider')
+#fig = px.line(df, x="Datum", y=col_chosen, color='Provider')
 
+
+
+
+bar = px.bar(df, x="Datum", y=col_chosen, color='Provider')
+#bar.add_traces(go.Scatter(x= sales['Datum'], y=sales["Nettoumsatz"], mode = 'lines'))
 #fig23 = px.line(df.groupby('Datum')[col_chosen].sum(), x="Datum", y=col_chosen)
 
 
@@ -32,9 +39,10 @@ register_page(__name__)
     Input(component_id="ads-controls-and-check-item", component_property="value"),
 )
 def update_graph(col_chosen):
-    fig = px.line(df, x="Datum", y=col_chosen, title=sub_title, color='Provider')
- 
-    return fig
+    #fig = px.line(df, x="Datum", y=col_chosen, title=sub_title, color='Provider', markers=True)
+    bar = px.bar(df, x="Datum", y=col_chosen, color='Provider', range_y=(0, df["Kosten"].max()))
+    #bar.add_traces(go.Scatter(x= sales['Datum'], y=sales["Nettoumsatz"], mode = 'lines'))
+    return bar
 
 
 layout = html.Div(
@@ -49,7 +57,8 @@ layout = html.Div(
             className='dropdown-class',
             style={'background-color':'#011213'}
         )]),
-        dcc.Graph(figure=fig, id="ads-controls-and-graph"),
+        #dcc.Graph(figure=fig, id="ads-controls-and-graph"),
+        dcc.Graph(figure=bar, id="var-ads-controls-and-graph"),
         dag.AgGrid(
             id="main_grid_basic",
             rowData=df.to_dict("records"),
