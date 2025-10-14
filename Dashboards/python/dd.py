@@ -15,7 +15,11 @@ class DD:
         "Ads": "Werbeerfolge",
         "Ml": "ML Stuff",
         "Kpi": "KPIs",
-        "Funnel": "Event Tpe (Funnel)"
+        "Funnel": "Funnel - (Sitzungstyp)",
+        "Dailysale": "Tagesumsätze",
+        "Home": "Start",
+        "Geo": "Geodaten",
+        "Lab": "DEV Labor(Spielwiese)",
     }
 
     col_transl = {
@@ -27,14 +31,23 @@ class DD:
         "session_duration": "Sitzungsdauer",
         "pages_per_sess": "Seiten je Sitzung",
         "jump_offs": "Absprünge",
-        "sess_cart_add": "Sitzung: Artikel im Warenkorb",
-        "sess_co": "Sitzung: Check-Out erreicht",
-        "sess_co_done": "Sitzung: Check-Out abgeschlossen",
+        "sess_cart_add": "Warenkorb",
+        "sess_co": "Check-Out err.",
+        "sess_co_done": "Check-Out abgeschl.",
         "sessions": "Sitzungen",
         "Sitzung_min": "Sitzungsdauer[min.]",
+        "cr": "Conversion Rate",
+    }
+    
+    prd_trans = {
+        "prod_name": "Produktname",
+        "invent_start": "Inventareinheiten zum Ende",
+        "invent_end": "Inventareinheiten zum Ende",
+        "sold_units": "Verkaufte Inventareinheiten",
+        "sell_rate": "Verkaufsrate"
     }
 
-    session_y = ["jump_offs", "sess_cart_add", "sess_co", "sess_co_done", "sessions"]
+    session_y = ["jump_offs", "sess_cart_add", "sess_co", "sess_co_done", "sessions", "Sitzung_min"]
 
     sales_chan_y = [
         "Vertriebskanal",

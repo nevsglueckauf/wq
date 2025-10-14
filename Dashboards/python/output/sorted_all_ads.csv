@@ -1,4 +1,4 @@
-Datum,Impressionen,Klicks,Kosten,CPC_Manuell,CRT_Manuell,Provider
+Datum,Impressionen,Klicks,Kosten,CPC,CTR,Provider
 2024-11-22,305.0,9,5.0,0.5556,0.0295,Alpha
 2024-11-22,480.0,23,2.0,0.087,0.0479,Meta
 2024-11-23,663.0,42,4.61,0.1098,0.0633,Meta

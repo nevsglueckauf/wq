@@ -38,6 +38,9 @@ class TabFactory:
 
     pass
 
+    txt_cl_prm = "#385682" # 1. text color
+    txt_cl_scn = "#385682" # 2. text color
+
     @staticmethod
     def df(ds: str, dt: str) -> pd.DataFrame:
         """Getting dataframe from given data source"""

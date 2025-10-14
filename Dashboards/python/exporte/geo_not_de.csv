@@ -1,0 +1,458 @@
+country,state,county,name,lat,lng
+AE,Dubai,,Dubai,25.07725,55.30927
+AE,Sharjah Emirate,,Sharjah,25.33737,55.41206
+AF,Kabul Province,Kabul,Kabul,34.52813,69.17233
+AR,Misiones,,San José,-27.76916,-55.78033
+AR,Catamarca,,San José,-28.38756,-65.70087
+AS,American Samoa,Eastern District,Pago Pago,-14.27806,-170.7025
+AT,,,Vienna,48.20849,16.37208
+AT,Upper Austria,Bezirk Vöcklabruck,Tiefgraben,47.87385,13.30591
+AT,Salzburg,,Salzburg,47.79941,13.04399
+AT,Burgenland,Bezirk Oberwart,Oberschützen,47.35138,16.20732
+AT,Styria,Bezirk Bruck-Mürzzuschlag,Kapfenberg,47.44458,15.29331
+AT,Tyrol,Bezirk Schwaz,Jenbach,47.39173,11.77245
+AT,Tyrol,,Innsbruck,47.26266,11.39454
+AT,Styria,,Graz,47.06667,15.45
+AT,Vorarlberg,Bezirk Feldkirch,Götzis,47.33306,9.63306
+AT,Salzburg,Bezirk Salzburg-Umgebung,Elixhausen,47.86667,13.06667
+AU,New South Wales,,Sydney,-33.86785,151.20732
+AU,Victoria,,Montrose,-37.81667,145.35
+AU,Victoria,,Lucknow,-37.81667,147.65
+AU,New South Wales,,Cardiff,-32.94201,151.6544
+AU,Tasmania,,Cambridge,-42.83333,147.45
+AU,Tasmania,,Montrose,-42.82895,147.24735
+AZ,Baku,,Baku,40.37767,49.89201
+BA,Federation of Bosnia and Herzegovina,,Čitluk,43.22861,17.70083
+BE,East Flanders,Oudenaarde,Oudenaarde,50.85168,3.60891
+BE,Hainaut,Mons,Mons,50.45413,3.95229
+BE,,Brussels-Capital,Brussels,50.85045,4.34878
+BG,,Yambol,Yambol,42.48333,26.5
+BG,,Varna,Varna,43.21667,27.91667
+BG,,Sofia-City,Sofia,42.69751,23.32415
+BG,,Plovdiv,Plovdiv,42.15,24.75
+BR,Piauí,,Porto,-3.89333,-42.71
+BR,Rio Grande do Sul,,Santiago,-29.19167,-54.86722
+BR,Santa Catarina,,Joinville,-26.30444,-48.84556
+BR,Sergipe,,Itabaianinha,-11.27389,-37.79
+BR,São Paulo,Região Metropolitana de São Paulo,Ferraz de Vasconcelos,-23.54083,-46.36861
+BR,Minas Gerais,Região Metropolitana de Belo Horizonte,Belo Horizonte,-19.92083,-43.93778
+BS,,,Nassau,25.05823,-77.34306
+BY,,,Minsk,53.9,27.56667
+CA,Quebec,Beauharnois-Salaberry,Beauharnois,45.31341,-73.8725
+CA,Ontario,Huron County,Brussels,43.74316,-81.24998
+CA,Ontario,Region of Waterloo,Cambridge,43.3601,-80.31269
+CA,Ontario,London,London,42.98339,-81.23304
+CA,Quebec,Québec (Agglomération),Québec,46.81228,-71.21454
+CA,Nova Scotia,Cape Breton County,Sydney,46.1351,-60.1831
+CH,St. Gallen,Wahlkreis St. Gallen,Waldkirch,47.46859,9.28665
+CH,Wallis,Entremont,Verbier,46.1002,7.22651
+CH,Aargau,Bezirk Baden,Ehrendingen,47.5025,8.34729
+CH,Zurich,Bezirk Dietikon,Uitikon,47.36911,8.45699
+CH,Aargau,Bezirk Baden,Spreitenbach,47.42285,8.36792
+CH,St. Gallen,Wahlkreis Rorschach,Rorschach,47.478,9.4903
+CH,Vaud,District de la Broye-Vully,Payerne,46.82192,6.93817
+CH,Zurich,Bezirk Meilen,Männedorf,47.25686,8.69893
+CH,Thurgau,Bezirk Frauenfeld,Frauenfeld,47.55776,8.89893
+CH,Zurich,Bezirk Bülach,Bülach,47.52197,8.54049
+CH,Basel-Country,Bezirk Arlesheim,Birsfelden,47.5529,7.62322
+CH,Geneva,,Bernex,46.1765,6.07544
+CH,Basel-City,,Basel,47.55839,7.57327
+CH,Zurich,Bezirk Horgen,Adliswil,47.30997,8.52462
+CH,Aargau,Bezirk Aarau,Aarau,47.39254,8.04422
+CL,Santiago Metropolitan Region,Provincia de Santiago,Santiago,-33.45694,-70.64827
+CN,,,Shanghai,31.22222,121.45806
+CO,Antioquia,,Santo Domingo,6.47282,-75.16547
+CO,Norte de Santander,,Santiago,7.86432,-72.7162
+CO,Putumayo,,Santiago,1.14844,-77.0045
+CO,Caldas,,San José,5.08221,-75.79107
+CO,Nariño,Roberto Payán (San José),San José,1.69659,-78.24482
+CO,Nariño,Albán (San José),San José,1.47446,-77.08144
+CO,,,Madrid,4.73245,-74.26419
+CR,,Cantón Santa Bárbara,Santo Domingo,10.06389,-84.15499
+CR,,Cantón Palmares,Santiago,10.02275,-84.4442
+CR,,Cantón Puriscal,Santiago,9.84636,-84.31428
+CR,,Cantón Upala,San José,10.95192,-85.13572
+CR,,Cantón San José,San José,9.93333,-84.08333
+CU,Villa Clara,,Santo Domingo,22.58677,-80.24261
+CV,,Praia,Praia,14.93152,-23.51254
+CY,South Cyprus,,Nicosia,35.17531,33.3642
+CY,South Cyprus,,Limassol,34.68406,33.03794
+CY,South Cyprus,,Larnaca,34.92291,33.6233
+CZ,Northwest,Ústecký kraj,Žatec,50.32717,13.54577
+CZ,Prague,,Prague,50.08804,14.42076
+CZ,Southeast,Jihomoravský kraj,Pohořelice,48.98119,16.52445
+CZ,Northeast,Pardubický kraj,Pardubice,50.04075,15.77659
+CZ,Central Bohemia,,Jesenice,50.09703,13.46948
+CZ,Central Bohemia,,Jesenice,49.96814,14.5135
+CZ,Central Bohemia,,Český Brod,50.0742,14.86081
+CZ,Southwest,Jihočeský kraj,České Budějovice,48.97447,14.47434
+CZ,Central Bohemia,,Beroun,49.96382,14.072
+DE,Baden-Württemberg,Landkreis Emmendingen,Waldkirch,48.09585,7.96371
+DE,Rhineland-Palatinate,Rhein-Lahn-Kreis,Nassau,50.31453,7.80025
+DE,Baden-Württemberg,Bodenseekreis,Salem,47.76258,9.29031
+DK,Region of Southern Denmark,,Vojens,55.24639,9.30603
+DK,Region of Southern Denmark,,Varde,55.62112,8.48069
+DK,Capital Region of Denmark,,Rønne,55.10091,14.70664
+DK,Capital Region of Denmark,,Copenhagen,55.67594,12.56553
+DK,Central Denmark Region,,Holstebro,56.36009,8.61607
+DK,Region of Southern Denmark,,Esbjerg,55.47028,8.45187
+DK,Capital Region of Denmark,,Charlottenlund,55.75238,12.5745
+DK,North Denmark Region,,Brønderslev,57.27021,9.94102
+DO,Distrito Nacional,,Santo Domingo,18.47186,-69.89232
+EC,Zamora Chinchipe,Palanda,Valladolid,-4.55137,-79.13199
+EC,Loja,Loja,Santiago,-3.7938,-79.28192
+EC,Bolívar,San Miguel,Santiago,-1.69968,-78.99985
+EE,,Harju maakond,Tallinn,59.43696,24.75353
+EG,Cairo Governorate,,Cairo,30.06263,31.24967
+EG,Giza Governorate,,Giza,30.00944,31.20861
+ES,Andalusia,,San José,36.76048,-2.10912
+ES,Castile and León,,Valladolid,41.65518,-4.72372
+ES,Catalonia,Selva,Santa Coloma de Farners,41.86667,2.66667
+ES,Castile and León,,Porto,42.16737,-6.89934
+ES,Galicia,Ferrol,Narón,43.50175,-8.19082
+ES,Community of Madrid,Área metropolitana de Madrid y Corredor del Henares,Madrid,40.4165,-3.70256
+ES,Catalonia,Selva,Breda,41.74833,2.55964
+FI,,Uusimaa,Helsinki,60.16952,24.93545
+FR,Grand Est,Haut-Rhin,Rosenau,47.63688,7.53598
+FR,Occitania,Gard,Mons,44.11563,4.17185
+FR,Occitania,Haute-Garonne,Mons,43.6124,1.57207
+FR,Auvergne-Rhône-Alpes,Métropole de Lyon,Lyon,45.74846,4.84671
+FR,Auvergne-Rhône-Alpes,Ardèche,Lavilledieu,44.57545,4.45314
+FR,Grand Est,Haute-Marne,Joinville,48.44363,5.14144
+FR,Provence-Alpes-Côte d'Azur,Maritime Alps,Grasse,43.65783,6.92537
+FR,Ile-de-France,Essonne,Corbeil-Essonnes,48.60603,2.48757
+GB,England,,City of Westminster,51.4975,-0.1357
+GB,England,West Midlands Combined Authority,West Bromwich,52.51868,-1.9945
+GB,England,,Southampton,50.90395,-1.40428
+GB,Scotland,Angus,Montrose,56.71683,-2.46695
+GB,England,Milton Keynes,Milton Keynes,52.04172,-0.75583
+GB,England,Greater Manchester,Manchester,53.48095,-2.23743
+GB,England,Luton,Luton,51.87967,-0.41748
+GB,England,Milton Keynes,Loughton,52.03037,-0.78642
+GB,England,,London,51.50853,-0.12574
+GB,England,City of Leicester,Leicester,52.6386,-1.13169
+GB,England,,Ilford,51.55765,0.07278
+GB,Scotland,Glasgow City,Glasgow,55.86515,-4.25763
+GB,Wales,Cardiff,Cardiff,51.48,-3.18
+GB,England,Cambridgeshire,Cambridge,52.2,0.11667
+GB,Scotland,Highland,Alness,57.69596,-4.2551
+GE,Autonomous Republic of Adjara,,Batumi,41.64228,41.63392
+GR,Attica,Regional Unit of East Attica,Vári,37.8332,23.80311
+GR,Aegean,Syros Regional Unit,Vári,37.39859,24.94904
+GR,Attica,Regional Unit of Central Athens,Athens,37.98376,23.72784
+GT,Petén,,San José,16.98333,-89.9
+HK,Hong Kong,,Hong Kong,22.27832,114.17469
+HN,Copán,,San José,14.90235,-88.72063
+HN,Yoro,,San José,15.31667,-87.16667
+HN,La Paz,,San José,14.24809,-87.95951
+HR,,,Zagreb,45.81444,15.97798
+HR,,Sisak-Moslavina County,Sisak,45.46611,16.37833
+HR,,Primorje-Gorski Kotar County,Rijeka,45.32673,14.44241
+HR,,Zadar County,Jesenice,44.23,15.5775
+HR,,Split-Dalmatia County,Jesenice,43.46158,16.60197
+HU,,,Budapest,47.49835,19.04045
+ID,Central Java,Brebes,Salem,-7.1825,108.8059
+IE,,County Wicklow,Wicklow,52.975,-6.04944
+IE,,County Dublin,Dublin,53.33306,-6.24889
+IL,Tel Aviv District,,Tel Aviv,32.08088,34.78057
+IL,Center District,,Ness Ziona,31.92933,34.79868
+IL,Tel Aviv District,,Herzliya,32.16627,34.82536
+IL,Center District,,Ganei Tikva,32.05971,34.8732
+IN,Gujarat,,Surat,21.19594,72.83023
+IN,Tamil Nadu,Salem,Salem,11.65376,78.15538
+IN,Uttar Pradesh,Sadar,Lucknow,26.83928,80.92313
+IN,Maharashtra,,Mumbai,19.07283,72.88261
+IN,Karnataka,Bangalore North,Bengaluru,12.97194,77.59369
+IT,Sicily,Enna,Nicosia,37.74747,14.39218
+IT,Veneto,Venezia,Venice,45.43713,12.33265
+IT,Trentino-Alto Adige/Südtirol,South Tyrol,Varna,46.73901,11.63749
+IT,Piemont,Cuneo,Santa Vittoria d'Alba,44.69864,7.93733
+IT,Lazio,Roma Capitale,Rome,41.89193,12.51133
+IT,Emilia-Romagna,Modena,Modena,44.64783,10.92539
+IT,Tuscany,Metropolitan City of Florence,Florence,43.77925,11.24626
+IT,Emilia-Romagna,,Cesena,44.1391,12.24315
+IT,Veneto,Treviso,Breda,45.7225,12.33083
+IT,Emilia-Romagna,Bologna,Bologna,44.49381,11.33875
+IT,Campania,Napoli,Porto,40.84395,14.25724
+JM,,Saint James,Cambridge,18.31326,-77.90252
+JP,,,Tokyo,35.6895,139.69171
+KR,,,Yangsan,35.34199,129.03358
+LT,Vilnius County,,Vilnius,54.68916,25.2798
+LU,,Canton Luxembourg,Luxembourg,49.61167,6.13
+LV,Vidzeme,,Riga,56.946,24.10589
+MK,Skopje Region,City of Skopje,Skopje,41.99646,21.43141
+MS,Övörkhangai,Saint Peter,Salem,16.75095,-62.22175
+MV,,,Male,4.17521,73.50916
+MX,Yucatán,Valladolid,Valladolid,20.68812,-88.19936
+MX,Chiapas,Unión Juárez,Santo Domingo,15.03067,-92.10361
+MX,Veracruz,Atzalan,Santiago,19.91714,-97.154
+MX,Veracruz,Ixmatlahuacan,Santiago,18.44884,-95.83037
+MX,Chiapas,Ocosingo,Santo Domingo,17.02819,-91.41682
+MX,Guerrero,Tecoanapa,Ocotlán,16.93947,-99.36919
+MX,Yucatán,Maxcanú,Santo Domingo,20.6,-90.11667
+MX,State of Mexico,Villa Guerrero,San José,19.00777,-99.66345
+MX,San Luis Potosi,Santo Domingo,Santo Domingo,23.3267,-101.7361
+MX,San Luis Potosi,Villa Juárez,Santo Domingo,22.28325,-100.16965
+MX,Nuevo León,Santiago,Santiago,25.42533,-100.15205
+MX,Zacatecas,Pinos,Santiago,22.45477,-101.45898
+MX,Aguascalientes,Pabellón de Arteaga,Santiago,22.11948,-102.33769
+MX,Jalisco,Ocotlán,Ocotlán,20.3553,-102.77358
+MX,Colima,Tecomán,Madrid,19.08459,-103.87123
+MX,Aguascalientes,Jesús María,Valladolid,22.02111,-102.315
+MX,Hidalgo,Tlanchinol,San José,21.06917,-98.59444
+MX,Puebla,Xiutetelco,San José,19.80306,-97.33389
+MX,Puebla,Xiutetelco,Santiago,19.81194,-97.32361
+NG,Oyo,Ibadan South East,Ibadan,7.37756,3.90591
+NI,Chontales,,Santo Domingo,12.26438,-85.08235
+NL,North Brabant,,Zundert,51.47167,4.65556
+NL,North Brabant,,Vught,51.65333,5.2875
+NL,North Brabant,,Veldhoven,51.41833,5.40278
+NL,Utrecht,,Utrecht,52.09083,5.12222
+NL,South Holland,,Spijkenisse,51.845,4.32917
+NL,North Brabant,,'s-Hertogenbosch,51.69917,5.30417
+NL,South Holland,,The Hague,52.07667,4.29861
+NL,South Holland,,Schiedam,51.91917,4.38889
+NL,South Holland,,Rotterdam,51.9225,4.47917
+NL,South Holland,,Rhoon,51.8575,4.42222
+NL,North Holland,,Purmerend,52.505,4.95972
+NL,South Holland,,Pijnacker,52.01954,4.42946
+NL,Limburg,,Panningen,51.32667,5.97917
+NL,Gelderland,,Nijmegen,51.8425,5.85278
+NL,South Holland,,Naaldwijk,51.99417,4.20972
+NL,Limburg,,Maastricht,50.84833,5.68889
+NL,Gelderland,,Lunteren,52.085,5.62222
+NL,South Holland,,Hendrik-Ido-Ambacht,51.84417,4.63889
+NL,North Brabant,,Helmond,51.48167,5.66111
+NL,North Holland,,Heerhugowaard,52.67144,4.84862
+NL,Overijssel,,Enschede,52.21833,6.89583
+NL,North Brabant,,Eindhoven,51.44083,5.47778
+NL,South Holland,,Dordrecht,51.81,4.67361
+NL,Gelderland,,Doetinchem,51.965,6.28889
+NL,Gelderland,,Dieren,52.0512,6.103
+NL,North Brabant,,Breda,51.58656,4.77596
+NL,Gelderland,,Arnhem,51.98,5.91111
+NL,North Holland,,Amsterdam,52.37403,4.88969
+NL,South Holland,,Alphen aan den Rijn,52.12917,4.65546
+NZ,Waikato,Waipa District,Cambridge,-37.87822,175.4402
+PA,Chiriquí,Distrito Bugaba,Santo Domingo,8.5104,-82.71365
+PA,Los Santos,Distrito Las Tablas,Santo Domingo,7.74856,-80.2414
+PA,Panamá Oeste,Distrito Arraiján,San José,8.92703,-79.73359
+PA,Panamá Oeste,,San José,8.53542,-79.92357
+PA,Veraguas,Distrito Calobre,San José,8.46578,-80.80365
+PA,Veraguas,Distrito Cañazas,San José,8.37052,-81.41527
+PA,Los Santos,Distrito Las Tablas,San José,7.67704,-80.24339
+PE,Piura,Kathmandu,Santo Domingo,-5.02927,-79.87604
+PE,Lambayeque,,San José,-6.73813,-79.8275
+PE,Ica,,Santiago,-14.18469,-75.71124
+PE,Arequipa,Lower Hutt City,San José,-16.61847,-72.73667
+PE,Puno,Lower Hutt City,San José,-14.682,-70.15905
+PE,Cusco,,Santiago,-13.52728,-71.9843
+PH,Negros Occidental,,Valladolid,10.4616,122.8245
+PH,Ilocos Sur,,Santo Domingo,17.63528,120.41083
+PH,Isabela,,Santo Domingo,17.15999,121.75183
+PH,Nueva Ecija,,Santo Domingo,15.5873,120.877
+PH,Pampanga,,Santo Domingo,15.07289,120.75703
+PH,Pampanga,,Santo Domingo,14.9912,120.74341
+PH,Pampanga,,Santo Domingo,14.96532,120.55672
+PH,Camarines Norte,,Santo Domingo,14.1338,122.8883
+PH,Camarines Sur,,Santo Domingo,13.7,123.16667
+PH,Camarines Sur,,Santo Domingo,13.42,123.4486
+PH,Albay,,Santo Domingo,13.23528,123.77722
+PH,Ilocos Sur,,Santiago,17.2939,120.4449
+PH,Isabela,,Santiago,16.68808,121.5487
+PH,Pampanga,,Santiago,14.90371,120.51134
+PH,Laguna,,Santiago,14.0211,121.2792
+PH,Iloilo,Barotac Viejo,Santiago,11.05806,122.91167
+PH,Cebu,,Santiago,10.5897,124.3066
+PH,Davao Oriental,,Santiago,7.28889,126.57333
+PH,Surigao del Sur,,Madrid,9.26211,125.96437
+PL,Masovian Voivodeship,Wyszków County,Wyszków,52.59278,21.4584
+PL,Masovian Voivodeship,,Warsaw,52.22977,21.01178
+PL,Masovian Voivodeship,Wyszków County,Rząśnik,52.71332,21.36772
+PL,Subcarpathian Voivodeship,Tarnobrzeg County,Nowa Dęba,50.42974,21.75078
+PL,Subcarpathian Voivodeship,Nisko County,Jarocin,50.56459,22.32121
+PL,West Pomeranian Voivodeship,,Szczecin,53.42894,14.55302
+PL,Kuyavian-Pomeranian Voivodeship,Bydgoszcz County,Solec Kujawski,53.08371,18.22572
+PL,Silesian Voivodeship,,Katowice,50.25841,19.02754
+PL,Greater Poland Voivodeship,Jarocin County,Jarocin,51.97266,17.50256
+PR,Puerto Rico,,San José,18.39828,-66.25572
+PR,Puerto Rico,Peñuelas,Santo Domingo,18.0633,-66.7524
+PT,,Lisbon,Lisbon,38.71667,-9.13333
+PT,,Braga,Vila Nova de Famalicão,41.40797,-8.51978
+PT,,Porto,Porto,41.14961,-8.61099
+PT,,Bragança District,Mirandela,41.48739,-7.18695
+PT,,Braga,Guimarães,41.44443,-8.29619
+PY,Misiones,,Santiago,-27.1431,-56.76803
+RO,,Ilfov,Chiajna,44.46,25.97333
+RO,,,Bucharest,44.43225,26.10626
+RS,Central Serbia,Macva Administrative District,Varna,44.67914,19.6515
+RU,Moscow,,Moscow,55.75222,37.61556
+RU,Sverdlovsk Oblast,Yekaterinburg Municipality,Yekaterinburg,56.8519,60.6122
+RU,Chelyabinsk Oblast,Varnensky District,Varna,53.38194,60.97472
+RW,Kigali City,Nyarugenge District,Kigali,-1.94995,30.05885
+SE,,Norrbotten County,Luleå,65.58415,22.15465
+SE,,Stockholm County,Stockholm,59.32938,18.06871
+SE,,Örebro County,Örebro,59.27412,15.2066
+SE,,Östergötland County,Norrköping,58.59419,16.1826
+SE,,Östergötland County,Linköping,58.41086,15.62157
+SE,,Värmland County,Karlstad,59.3793,13.50357
+SG,,Central,Singapore,1.28967,103.85007
+SI,,,Maribor,46.55472,15.64667
+SI,,,Jesenice,46.43056,14.06694
+SK,Region of Nitra,District of Nitra,Nitra,48.30763,18.08453
+SK,Region of Trnava,District of Dunajská Streda,Dunajská Streda,47.99268,17.61211
+SK,Region of Bratislava,,Bratislava,48.14816,17.10674
+SK,Region of Banská Bystrica,District of Banská Bystrica,Banská Bystrica,48.73946,19.15349
+TH,Bangkok,,Bangkok,13.75398,100.50144
+TN,Nabeul,الأسواق,Nabeul,36.45606,10.73763
+TR,,,Konya,37.87135,32.48464
+TR,,,Istanbul,41.01384,28.94966
+TW,Hhohho Region,Inkhundla Piggs Peak,Taipei,25.05306,121.52639
+TW,,,Kaohsiung,22.61626,120.31333
+UA,Lviv Oblast,,Lviv,49.83826,24.02324
+UA,,,Kyiv,50.45466,30.5238
+UA,Dnipropetrovsk Oblast,,Dnipro,48.46664,35.04066
+US,Alabama,Lauderdale County,Florence,34.79981,-87.67725
+US,Alabama,Geneva County,Geneva,31.03296,-85.86382
+US,Arkansas,Pope County,London,35.32897,-93.25296
+US,Arkansas,Fulton County,Salem,36.37118,-91.82265
+US,Arkansas,Saline County,Salem,34.62898,-92.55822
+US,Delaware,New Castle County,Glasgow,39.60483,-75.74521
+US,Florida,Seminole County,Geneva,28.73972,-81.11506
+US,Florida,Sarasota County,Venice,27.09978,-82.45426
+US,Georgia,Athens-Clarke County,Athens,33.96095,-83.37794
+US,Georgia,Grady County,Cairo,30.87751,-84.20214
+US,Georgia,Laurens County,Dublin,32.54044,-82.90375
+US,Georgia,Meriwether County,Manchester,32.85985,-84.61993
+US,Georgia,Floyd County,Rome,34.25704,-85.16467
+US,Georgia,Dooly County,Vienna,32.09156,-83.79545
+US,Illinois,Menard County,Athens,39.96088,-89.72399
+US,Illinois,Alexander County,Cairo,37.00533,-89.17646
+US,Illinois,Marion County,Salem,38.62699,-88.94562
+US,Illinois,Madison County,Venice,38.67227,-90.16983
+US,Illinois,Johnson County,Vienna,37.41533,-88.89784
+US,Indiana,Shelby County,Geneva,39.39172,-85.71998
+US,Indiana,Washington County,Salem,38.60561,-86.10109
+US,Kentucky,Boone County,Florence,38.99895,-84.62661
+US,Kentucky,Barren County,Glasgow,36.99588,-85.91192
+US,Kentucky,Laurel County,London,37.12898,-84.08326
+US,Kentucky,Clay County,Manchester,37.1537,-83.76186
+US,Kentucky,Gallatin County,Warsaw,38.7834,-84.90162
+US,Maryland,Dorchester County,Cambridge,38.56317,-76.07883
+US,Maryland,Carroll County,Manchester,39.66121,-76.88498
+US,Missouri,Howard County,Glasgow,39.22725,-92.84658
+US,Missouri,Saint Louis County,Manchester,38.597,-90.50929
+US,Missouri,Dent County,Salem,37.6456,-91.53598
+US,Missouri,Maries County,Vienna,38.18671,-91.94711
+US,Missouri,Benton County,Warsaw,38.24308,-93.38187
+US,Mississippi,Rankin County,Florence,32.15348,-90.1312
+US,North Carolina,Burke County,Salem,35.69874,-81.69704
+US,North Carolina,Duplin County,Warsaw,34.99933,-78.0911
+US,New Jersey,Salem County,Salem,39.57178,-75.46714
+US,Ohio,Athens County,Athens,39.32924,-82.10126
+US,Ohio,Fairfield County,Geneva,39.66201,-82.43349
+US,Ohio,Clark County,Lisbon,39.86089,-83.6352
+US,Ohio,Madison County,London,39.88645,-83.44825
+US,Ohio,Adams County,Manchester,38.68813,-83.60936
+US,Oklahoma,Lincoln County,Prague,35.48674,-96.68502
+US,South Carolina,Florence County,Florence,34.19543,-79.76256
+US,Tennessee,McMinn County,Athens,35.44285,-84.59299
+US,Tennessee,Coffee County,Manchester,35.48174,-86.0886
+US,Texas,Henderson County,Athens,32.20487,-95.85552
+US,Texas,Erath County,Dublin,32.08514,-98.34199
+US,Texas,Williamson County,Florence,30.8413,-97.79363
+US,Virginia,Pulaski County,Dublin,37.10568,-80.68534
+US,Virginia,Rockbridge County,Glasgow,37.63402,-79.45031
+US,Virginia,Henrico County,Montrose,37.5207,-77.37831
+US,Virginia,,Salem,37.29347,-80.05476
+US,Virginia,Fairfax County,Vienna,38.90122,-77.26526
+US,Virginia,Richmond County,Warsaw,37.95874,-76.75801
+US,West Virginia,Harrison County,Salem,39.28287,-80.55899
+US,West Virginia,Wood County,Vienna,39.32702,-81.54846
+US,New Jersey,Camden County,Florence,39.73428,-74.91822
+US,Alabama,Limestone County,Athens,34.80243,-86.97219
+US,Wisconsin,Door County,Brussels,44.73611,-87.62093
+US,Connecticut,New London County,Lisbon,41.60399,-72.01174
+US,Connecticut,Hartford County,Manchester,41.77593,-72.52148
+US,Connecticut,New London County,Salem,41.49038,-72.27536
+US,Iowa,Linn County,Lisbon,41.92112,-91.38545
+US,Iowa,Boone County,Madrid,41.87665,-93.82328
+US,Iowa,Delaware County,Manchester,42.48415,-91.45543
+US,Illinois,Henry County,Cambridge,41.30365,-90.1929
+US,Illinois,Kane County,Geneva,41.88753,-88.30535
+US,Illinois,Peoria County,Rome,40.88309,-89.50259
+US,Illinois,Hancock County,Warsaw,40.35921,-91.4346
+US,Indiana,Adams County,Geneva,40.59199,-84.95719
+US,Indiana,Kosciusko County,Warsaw,41.2381,-85.85305
+US,Massachusetts,Middlesex County,Cambridge,42.3751,-71.10561
+US,Massachusetts,Worcester County,Leicester,42.24593,-71.90868
+US,Massachusetts,Essex County,Salem,42.51977,-70.89552
+US,Massachusetts,Hampshire County,Southampton,42.22926,-72.73009
+US,Maine,Androscoggin County,Lisbon,44.03146,-70.1045
+US,Maine,Kennebec County,Manchester,44.32451,-69.86033
+US,Maine,Kennebec County,Rome,44.58506,-69.86922
+US,Michigan,Calhoun County,Athens,42.08866,-85.23471
+US,Michigan,Washtenaw County,Manchester,42.15032,-84.03772
+US,Michigan,Genesee County,Montrose,43.17669,-83.89274
+US,Minnesota,Isanti County,Cambridge,45.57274,-93.22439
+US,Minnesota,Wright County,Montrose,45.06496,-93.91108
+US,North Dakota,Ransom County,Lisbon,46.44163,-97.68121
+US,Nebraska,Fillmore County,Geneva,40.52695,-97.59588
+US,New Hampshire,Cheshire County,Dublin,42.90758,-72.06258
+US,New Hampshire,Hillsborough County,Manchester,42.99564,-71.45479
+US,New Hampshire,Rockingham County,Salem,42.78842,-71.20089
+US,New Jersey,Burlington County,Florence,40.11955,-74.80544
+US,New York,Montgomery County,Amsterdam,42.93869,-74.18819
+US,New York,Greene County,Athens,42.26036,-73.80957
+US,New York,Greene County,Cairo,42.29897,-73.99847
+US,New York,Washington County,Cambridge,43.02813,-73.38122
+US,New York,Ontario County,Geneva,42.86896,-76.97774
+US,New York,Ontario County,Manchester,42.96979,-77.23026
+US,New York,Westchester County,Montrose,41.25232,-73.93153
+US,New York,Rensselaer County,Nassau,42.51591,-73.61012
+US,New York,Oneida County,Rome,43.21285,-75.45573
+US,New York,Schenectady,Rotterdam,42.78702,-73.97096
+US,New York,Suffolk County,Southampton,40.88427,-72.38953
+US,New York,Wyoming County,Warsaw,42.74006,-78.13279
+US,Ohio,Paulding County,Antwerp,41.18144,-84.74051
+US,Ohio,Guernsey County,Cambridge,40.03118,-81.58846
+US,Ohio,Franklin County,Dublin,40.09923,-83.11408
+US,Ohio,Ashtabula County,Geneva,41.80505,-80.94815
+US,Ohio,Columbiana County,Lisbon,40.772,-80.76813
+US,Ohio,Summit County,Manchester,40.937,-81.56929
+US,Ohio,Columbiana County,Salem,40.90089,-80.85675
+US,Pennsylvania,Bradford County,Athens,41.9573,-76.518
+US,Pennsylvania,Bucks County,Dublin,40.37177,-75.20156
+US,Pennsylvania,York County,Manchester,40.06315,-76.7183
+US,Pennsylvania,,Montrose,40.30648,-75.98771
+US,Pennsylvania,Susquehanna County,Montrose,41.83397,-75.87714
+US,Pennsylvania,Lackawanna County,Moscow,41.33675,-75.51852
+US,South Dakota,McCook County,Salem,43.72415,-97.38895
+US,Vermont,Addison County,Leicester,43.86673,-73.10789
+US,Wisconsin,Marathon County,Athens,45.03302,-90.07402
+US,Wisconsin,Dane County,Cambridge,43.00361,-89.0165
+US,Wisconsin,Florence County,Florence,45.92218,-88.2518
+US,Wisconsin,Green Lake County,Manchester,43.69054,-89.04845
+US,Wisconsin,Kenosha County,Salem,42.55474,-88.11092
+US,Arizona,Pinal County,Florence,33.03145,-111.38734
+US,California,Alameda County,Dublin,37.70215,-121.93579
+US,California,Tulare County,London,36.47606,-119.44318
+US,California,Los Angeles County,Venice,33.99084,-118.46008
+US,Colorado,Fremont County,Florence,38.39028,-105.1186
+US,Colorado,Montrose County,Montrose,38.47832,-107.87617
+US,Utah,Utah County,Salem,40.05301,-111.67354
+US,Idaho,Latah County,Moscow,46.73239,-117.00017
+US,Montana,Valley County,Glasgow,48.19696,-106.63671
+US,Nebraska,Furnas County,Cambridge,40.28195,-100.16569
+US,Nebraska,Dawson County,Gothenburg,40.92945,-100.16068
+US,Oregon,Lane County,Florence,43.98262,-124.09984
+US,Oregon,Marion County,Salem,44.9429,-123.0351
+US,Washington,Whatcom County,Geneva,48.74567,-122.40183
+US,Washington,Kitsap County,Manchester,47.55566,-122.54507
+US,Wisconsin,Adams County,Rome,44.2206,-89.80843
+VE,Merida State,Municipio Cardenal Quintero,Santo Domingo,8.86052,-70.6948
+VN,,,Ho Chi Minh City,10.82302,106.62965
+VN,Dong Nai Province,,Biên Hòa,10.94469,106.82432
+ZA,KwaZulu-Natal,Amajuba District Municipality,Utrecht,-27.65862,30.32166
+ZA,Eastern Cape,Chris Hani District Municipality,Dordrecht,-31.372,27.04878
+ZA,Western Cape,City of Cape Town,Cape Town,-33.92584,18.42322

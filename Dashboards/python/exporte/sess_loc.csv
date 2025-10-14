@@ -1,0 +1,779 @@
+sess_ctry,sess_loc,sessions
+Afghanistan,Kabul,3
+American Samoa,Pago Pago,2
+Argentina,Del Viso,2
+Argentina,Nordelta,1
+Australia,Sydney,1
+Austria,Elixhausen,1
+Austria,Graz,1
+Austria,Götzis,1
+Austria,Innsbruck,1
+Austria,Jenbach,1
+Austria,Kapfenberg,1
+Austria,Oberschützen,2
+Austria,Salzburg,1
+Austria,Tiefgraben,1
+Austria,Vienna,13
+Azerbaijan,Baku,1
+Bahamas,Nassau,3
+Belarus,Minsk,6
+Belgium,Amel,2
+Belgium,Antwerp,1
+Belgium,Brussels,2
+Belgium,Ghent,2
+Belgium,Mons,2
+Belgium,Oudenaarde,1
+Bosnia and Herzegovina,Čitluk,1
+Brazil,Belo Horizonte,4
+Brazil,Ferraz de Vasconcelos,1
+Brazil,Itabaianinha,1
+Brazil,Joinville,1
+Bulgaria,Plovdiv,2
+Bulgaria,Rousse,1
+Bulgaria,Sofia,7
+Bulgaria,Varna,2
+Bulgaria,Yambol,1
+Cabo Verde,Praia,2
+Canada,Beauharnois,4
+Canada,Montreal,16
+Canada,Québec,1
+Chile,Santiago,1
+China,Shanghai,1
+Costa Rica,San José,3
+Croatia,Rijeka,1
+Croatia,Sisak,2
+Croatia,Zagreb,2
+Cyprus,Larnaca,1
+Cyprus,Limassol,1
+Cyprus,Nicosia,1
+Czechia,Beroun,7
+Czechia,Jesenice,4
+Czechia,Pardubice,1
+Czechia,Pohořelice,2
+Czechia,Prague,2
+Czechia,České Budějovice,2
+Czechia,Český Brod,1
+Czechia,Žatec,2
+Denmark,Brønderslev,1
+Denmark,Brønshøj,1
+Denmark,Charlottenlund,1
+Denmark,Copenhagen,3
+Denmark,Esbjerg,1
+Denmark,Holstebro,2
+Denmark,Rødovre Municipality,2
+Denmark,Rønne,1
+Denmark,Varde,26
+Denmark,Vojens,5
+Dominican Republic,Santo Domingo,1
+Egypt,Cairo,2
+Egypt,Giza,1
+Estonia,Tallinn,4
+Finland,Helsinki,13
+France,Corbeil-Essonnes,1
+France,Grasse,1
+France,Lavilledieu,1
+France,Lyon,1
+France,Rosenau,1
+Georgia,Batumi,1
+Germany,Aachen,1
+Germany,Aalen,5
+Germany,Achim,7
+Germany,Adelsdorf,1
+Germany,Ahaus,1
+Germany,Ahlen,1
+Germany,Alfeld,1
+Germany,Alfter,1
+Germany,Altdorf bei Nürnberg,1
+Germany,Altfraunhofen,1
+Germany,Altomünster,1
+Germany,Alzey,1
+Germany,Amberg,2
+Germany,Ankum,1
+Germany,Ansbach,3
+Germany,Apolda,1
+Germany,Arnstadt,4
+Germany,Aschaffenburg,1
+Germany,Aue,1
+Germany,Auerbach,2
+Germany,Augsburg,10
+Germany,Aurich,1
+Germany,Backnang,2
+Germany,Bad Arolsen,1
+Germany,Bad Doberan,2
+Germany,Bad Driburg,2
+Germany,Bad Frankenhausen,1
+Germany,Bad Grund,1
+Germany,Bad Krozingen,4
+Germany,Bad König,1
+Germany,Bad Langensalza,11
+Germany,Bad Lauchstädt,2
+Germany,Bad Neustadt an der Saale,2
+Germany,Bad Oeynhausen,1
+Germany,Bad Reichenhall,1
+Germany,Bad Salzuflen,1
+Germany,Bad Salzungen,2
+Germany,Bad Soden am Taunus,3
+Germany,Bad Tölz,2
+Germany,Bad Windsheim,1
+Germany,Bamberg,6
+Germany,Bargteheide,2
+Germany,Barmstedt,1
+Germany,Barntrup,1
+Germany,Barth,2
+Germany,Bayreuth,1
+Germany,Beckum,1
+Germany,Beilngries,3
+Germany,Beindersheim,2
+Germany,Bellheim,2
+Germany,Bensheim,3
+Germany,Bergen auf Rügen,1
+Germany,Bergheim,1
+Germany,Bergkamen,4
+Germany,Berlin,75
+Germany,Bernburg,3
+Germany,Beselich,1
+Germany,Betzdorf,1
+Germany,Biberach an der Riss,1
+Germany,Biebergemünd,1
+Germany,Biederitz,1
+Germany,Bielefeld,6
+Germany,Bietigheim-Bissingen,3
+Germany,Bindlach,1
+Germany,Bissendorf,1
+Germany,Bochum,7
+Germany,Bodenheim,4
+Germany,Bodenwerder,1
+Germany,Bonn,6
+Germany,Boppard,1
+Germany,Bordesholm,1
+Germany,Bottrop,1
+Germany,Brake (Unterweser),1
+Germany,Bramsche,1
+Germany,Brandenburg,4
+Germany,Braunschweig,3
+Germany,Bremen,14
+Germany,Bremerhaven,1
+Germany,Buchholz in der Nordheide,2
+Germany,Burg bei Magdeburg,2
+Germany,Burgthann,28
+Germany,Burk,3
+Germany,Buttenheim,1
+Germany,Buxtehude,1
+Germany,Böblingen,1
+Germany,Bückeburg,1
+Germany,Bünde,2
+Germany,Bürstadt,1
+Germany,Calw,1
+Germany,Celle,2
+Germany,Cham,3
+Germany,Chemnitz,7
+Germany,Coburg,1
+Germany,Coesfeld,2
+Germany,Cologne,31
+Germany,Contwig,1
+Germany,Coswig,1
+Germany,Cottbus,1
+Germany,Cunewalde,1
+Germany,Dachau,8
+Germany,Dachwig,1
+Germany,Dahn,6
+Germany,Dannewerk,2
+Germany,Darmstadt,3
+Germany,Delmenhorst,4
+Germany,Dessau,2
+Germany,Detmold,3
+Germany,Dettenhausen,1
+Germany,Diepholz,1
+Germany,Dietersheim,1
+Germany,Dietfurt,6
+Germany,Dietzenbach,1
+Germany,Dingolshausen,1
+Germany,Donaueschingen,1
+Germany,Dortmund,25
+Germany,Dreieich,2
+Germany,Dresden,12
+Germany,Duisburg,7
+Germany,Döbeln,2
+Germany,Düren,4
+Germany,Düsseldorf,20
+Germany,Eberbach,1
+Germany,Eberswalde,1
+Germany,Ehingen,1
+Germany,Eichstätt,1
+Germany,Eicklingen,1
+Germany,Eilenburg,2
+Germany,Eisenach,1
+Germany,Eisleben Lutherstadt,1
+Germany,Eitorf,2
+Germany,Elmshorn,2
+Germany,Elsdorf,1
+Germany,Elterlein,1
+Germany,Emmelshausen,1
+Germany,Epfenbach,1
+Germany,Erding,1
+Germany,Erftstadt,1
+Germany,Erfurt,11
+Germany,Erkelenz,1
+Germany,Erkner,1
+Germany,Erlangen,10
+Germany,Espelkamp,3
+Germany,Essen,15
+Germany,Esslingen am Neckar,4
+Germany,Ettlingen,1
+Germany,Euskirchen,1
+Germany,Fahrdorf,1
+Germany,Falkensee,3
+Germany,Falkenstein,11
+Germany,Fellbach,1
+Germany,Feuchtwangen,2
+Germany,Filderstadt,1
+Germany,Flensburg,2
+Germany,Flörsheim,1
+Germany,Forchheim,4
+Germany,Forstern,1
+Germany,Frankenberg,3
+Germany,Frankenthal,1
+Germany,Frankfurt (Oder),1
+Germany,Frankfurt am Main,85
+Germany,Frechen,2
+Germany,Freiburg im Breisgau,4
+Germany,Freinsheim,1
+Germany,Freising,3
+Germany,Freital,1
+Germany,Freudenstadt,3
+Germany,Friedrichroda,1
+Germany,Friedrichshafen,2
+Germany,Fulda,1
+Germany,Fürstenfeldbruck,2
+Germany,Fürth,27
+Germany,Garmisch-Partenkirchen,3
+Germany,Geislingen an der Steige,6
+Germany,Gelnhausen,2
+Germany,Gelsenkirchen,1
+Germany,Georgsmarienhütte,1
+Germany,Germering,5
+Germany,Gevelsberg,3
+Germany,Giessen,5
+Germany,Gladbeck,3
+Germany,Gnarrenburg,2
+Germany,Goch,1
+Germany,Gotha,5
+Germany,Grebenhain,1
+Germany,Greifswald,1
+Germany,Grevenbroich,2
+Germany,Griesheim,2
+Germany,Gronau,1
+Germany,Grünstadt,1
+Germany,Gunzenhausen,1
+Germany,Göllheim,1
+Germany,Göppingen,4
+Germany,Göttingen,5
+Germany,Gütersloh,2
+Germany,Hagen,5
+Germany,Hagenow,2
+Germany,Haldensleben I,15
+Germany,Halle,5
+Germany,Hamburg,70
+Germany,Hamelin,4
+Germany,Hamm,2
+Germany,Hammelburg,1
+Germany,Hanau,3
+Germany,Hannoversch Münden,2
+Germany,Hanover,15
+Germany,Happurg,1
+Germany,Hausach,1
+Germany,Havixbeck,2
+Germany,Heidelberg,1
+Germany,Heilbronn,3
+Germany,Heiligenhafen,2
+Germany,Heimborn,1
+Germany,Heinsberg,2
+Germany,Helbra,1
+Germany,Hennigsdorf,2
+Germany,Herbolzheim,1
+Germany,Herford,2
+Germany,Hersbruck,3
+Germany,Herten,1
+Germany,Herzogenaurach,1
+Germany,Hettenleidelheim,1
+Germany,Heusweiler,5
+Germany,Hiddenhausen,1
+Germany,Hilpoltstein,1
+Germany,Hohentengen,1
+Germany,Hohenwarthe,7
+Germany,Hohenwestedt,1
+Germany,Homberg (Efze),2
+Germany,Horb am Neckar,1
+Germany,Höheinöd,1
+Germany,Hüfingen,1
+Germany,Hürth,1
+Germany,Illertissen,2
+Germany,Ilsede,1
+Germany,Ingolstadt,1
+Germany,Isenbüttel,1
+Germany,Isny,1
+Germany,Itzehoe,1
+Germany,Jena,6
+Germany,Jüchen,1
+Germany,Kahla,1
+Germany,Kamen,4
+Germany,Karlsruhe,7
+Germany,Kassel,8
+Germany,Kehl,1
+Germany,Kempten (Allgäu),1
+Germany,Kerken,1
+Germany,Kerpen,1
+Germany,Kiel,4
+Germany,Kirchdorf im Wald,2
+Germany,Kirchhain,4
+Germany,Kirchlinteln,1
+Germany,Kitzingen,8
+Germany,Kleinmachnow,2
+Germany,Klipphausen,2
+Germany,Koblenz,7
+Germany,Kolbermoor,2
+Germany,Konstanz,3
+Germany,Korbach,2
+Germany,Krefeld,5
+Germany,Kreuzau,3
+Germany,Kriebstein,1
+Germany,Kriftel,1
+Germany,Kronach,2
+Germany,Kronberg,1
+Germany,Kulmbach,3
+Germany,Königs Wusterhausen,2
+Germany,Königsbrunn,3
+Germany,Laage,1
+Germany,Laatzen,1
+Germany,Landau,3
+Germany,Landshut,5
+Germany,Langen,2
+Germany,Langenfeld,1
+Germany,Langensendelbach,3
+Germany,Langenzenn,3
+Germany,Lauda-Königshofen,2
+Germany,Lauingen,1
+Germany,Lautertal,1
+Germany,Leinefelde-Worbis,2
+Germany,Leinfelden-Echterdingen,1
+Germany,Leipzig,39
+Germany,Lemgo,2
+Germany,Leonberg,2
+Germany,Leverkusen,2
+Germany,Liebenburg,1
+Germany,Limburg an der Lahn,1
+Germany,Lippstadt,5
+Germany,Loerrach,1
+Germany,Lohne,1
+Germany,Lohr a. Main,1
+Germany,Lubnjow,1
+Germany,Luckau,1
+Germany,Luckenwalde,1
+Germany,Ludwigsburg,4
+Germany,Ludwigshafen am Rhein,5
+Germany,Ludwigslust,1
+Germany,Löhne,1
+Germany,Lößnitz,1
+Germany,Lübeck,2
+Germany,Lüdenscheid,1
+Germany,Lüdinghausen,1
+Germany,Lüneburg,3
+Germany,Lünen,1
+Germany,Magdeburg,2
+Germany,Mainhausen,1
+Germany,Maintal,1
+Germany,Mainz,6
+Germany,Mannheim,12
+Germany,Marburg,1
+Germany,Marienberg,2
+Germany,Markranstädt,1
+Germany,Marktheidenfeld,1
+Germany,Marktoberdorf,1
+Germany,Marl,3
+Germany,Matzenbach,1
+Germany,Maxhütte-Haidhof,1
+Germany,Mayen,1
+Germany,Meerane,1
+Germany,Meiningen,3
+Germany,Melsungen,1
+Germany,Memmingen,2
+Germany,Mendig,1
+Germany,Merseburg,1
+Germany,Michelstadt,1
+Germany,Miesbach,2
+Germany,Mittenwalde,1
+Germany,Moers,2
+Germany,Moormerland,1
+Germany,Mosbach,1
+Germany,Munich,123
+Germany,Mönchengladbach,5
+Germany,Mötzingen,1
+Germany,Mühlhausen,3
+Germany,Müllheim,2
+Germany,Münster,4
+Germany,Nauheim,1
+Germany,Naumburg,4
+Germany,Neckarsulm,3
+Germany,Neu-Isenburg,3
+Germany,Neu-Ulm,2
+Germany,Neubrandenburg,5
+Germany,Neuburg an der Donau,1
+Germany,Neuenmarkt,1
+Germany,Neuhaus am Rennweg,2
+Germany,Neumarkt in der Oberpfalz,21
+Germany,Neumünster,2
+Germany,Neunkirchen,2
+Germany,Neustadt an der Weinstraße,2
+Germany,Neuwied,1
+Germany,Nidderau,5
+Germany,Niebüll,1
+Germany,Niederkassel,1
+Germany,Norden,1
+Germany,Norderstedt,2
+Germany,Nordhausen,1
+Germany,Nuremberg,141
+Germany,Nördlingen,1
+Germany,Ober-Mörlen,1
+Germany,Oberhausen,6
+Germany,Oberkirch,1
+Germany,Oelde,2
+Germany,Oestrich-Winkel,1
+Germany,Offenbach,17
+Germany,Offenburg,1
+Germany,Ohrdruf,2
+Germany,Olching,1
+Germany,Oldenburg,4
+Germany,Olpe,1
+Germany,Oranienburg,1
+Germany,Oschatz,1
+Germany,Osnabrück,5
+Germany,Osterburg,1
+Germany,Osterholz-Scharmbeck,1
+Germany,Osterrönfeld,1
+Germany,Paderborn,7
+Germany,Parsberg,2
+Germany,Passau,4
+Germany,Pattensen,1
+Germany,Peine,2
+Germany,Peißenberg,1
+Germany,Pemfling,1
+Germany,Petersberg,1
+Germany,Pinneberg,1
+Germany,Poing,2
+Germany,Polch,1
+Germany,Postbauer-Heng,11
+Germany,Potsdam,6
+Germany,Pottenstein,3
+Germany,Poxdorf,16
+Germany,Prenzlau,1
+Germany,Püschow,1
+Germany,Püttlingen,2
+Germany,Rackwitz,17
+Germany,Radebeul,1
+Germany,Radolfzell,1
+Germany,Rathenow,1
+Germany,Ratingen,1
+Germany,Ravensburg,4
+Germany,Recklinghausen,3
+Germany,Regensburg,5
+Germany,Rehburg-Loccum,1
+Germany,Reinbek,1
+Germany,Remscheid,2
+Germany,Rendsburg,1
+Germany,Reutlingen,1
+Germany,Riedlingen,1
+Germany,Riegelsberg,1
+Germany,Rimbach,1
+Germany,Rimpar,1
+Germany,Rochlitz,1
+Germany,Rockenhausen,2
+Germany,Rodenbach,3
+Germany,Rosendahl,1
+Germany,Rosenheim,3
+Germany,Rostock,7
+Germany,Rotenburg (Wümme),1
+Germany,Rottenburg,3
+Germany,Rudelzhausen,1
+Germany,Rudolstadt,3
+Germany,Röbel,1
+Germany,Rösrath,2
+Germany,Rüsselsheim am Main,5
+Germany,Saalfeld,2
+Germany,Saarbrücken,5
+Germany,Saarlouis,3
+Germany,Salzgitter,21
+Germany,Sangerhausen,2
+Germany,Sankt Augustin,4
+Germany,Schifferstadt,3
+Germany,Schkopau,1
+Germany,Schleswig,1
+Germany,Schleusingen,1
+Germany,Schmitten,1
+Germany,Schnaittach,1
+Germany,Schramberg,1
+Germany,Schwabach,1
+Germany,Schwaigern,2
+Germany,Schwalmtal,1
+Germany,Schwarzenbek,1
+Germany,Schwarzheide,2
+Germany,Schweinfurt,1
+Germany,Schwelm,3
+Germany,Schwerin,6
+Germany,Schwäbisch Gmünd,1
+Germany,Schöningen,2
+Germany,Seligenstadt,3
+Germany,Simmern,1
+Germany,Sindelfingen,5
+Germany,Sinsheim,1
+Germany,Soest,1
+Germany,Sonthofen,1
+Germany,Speicher,1
+Germany,Spremberg,1
+Germany,Springe,2
+Germany,Sprockhövel,2
+Germany,St. Ingbert,1
+Germany,Stapelfeld,1
+Germany,Stegaurach,2
+Germany,Steinach,1
+Germany,Steinbach am Taunus,2
+Germany,Steinburg,1
+Germany,Steinen,1
+Germany,Stendal,2
+Germany,Stralsund,1
+Germany,Stuttgart,47
+Germany,Süderbrarup,1
+Germany,Tauberbischofsheim,29
+Germany,Taunusstein,1
+Germany,Telgte,1
+Germany,Todtnau,3
+Germany,Trebur,3
+Germany,Trier,3
+Germany,Tönisvorst,1
+Germany,Türkenfeld,1
+Germany,Uelitz,1
+Germany,Uelsen,1
+Germany,Uetersen,1
+Germany,Uffenheim,1
+Germany,Ulm,4
+Germany,Unterschleissheim,2
+Germany,Upgant-Schott,1
+Germany,Uttenreuth,9
+Germany,Vechelde,1
+Germany,Vechta,2
+Germany,Velbert,1
+Germany,Viernheim,1
+Germany,Viersen,2
+Germany,Villingen-Schwenningen,1
+Germany,Vilshofen,1
+Germany,Vlotho,1
+Germany,Vreden,3
+Germany,Völklingen,1
+Germany,Wabern,3
+Germany,Waiblingen,1
+Germany,Waigolshausen,2
+Germany,Waldfischbach-Burgalben,1
+Germany,Waltershausen,1
+Germany,Wandlitz,2
+Germany,Waren,2
+Germany,Wedel,1
+Germany,Weiden,1
+Germany,Weil im Schönbuch,1
+Germany,Weilburg,1
+Germany,Weilerbach,1
+Germany,Weilerswist,1
+Germany,Weimar,1
+Germany,Weingarten,2
+Germany,Weißenfels,1
+Germany,Welver,1
+Germany,Wendeburg,1
+Germany,Wertheim am Main,1
+Germany,Wesel,1
+Germany,Westerstede,2
+Germany,Westhofen,1
+Germany,Wiehl,2
+Germany,Wiesbaden,5
+Germany,Wietmarschen,1
+Germany,Winnenden,1
+Germany,Wissen,1
+Germany,Witten,1
+Germany,Wittenberge,1
+Germany,Wolfenbüttel,1
+Germany,Wolfhagen,1
+Germany,Wolfratshausen,1
+Germany,Wolfsburg,1
+Germany,Wuppertal,16
+Germany,Würzburg,3
+Germany,Zehdenick,1
+Germany,Zeithain,3
+Germany,Zeitz,1
+Germany,Zeuthen,1
+Germany,Zwickau,2
+Germany,Östringen,2
+Germany,Überlingen,1
+Germany,Ühlingen-Birkendorf,1
+Greece,Athens,1
+Greece,Vári,1
+Hong Kong,Hong Kong,1
+Hungary,Budapest,4
+Iceland,Reykjavik,1
+India,Bengaluru,1
+India,Lucknow,1
+India,Mumbai,6
+India,Salem,1
+India,Surat,1
+Ireland,Clonee,12
+Ireland,Dublin,14
+Ireland,Wicklow,1
+Israel,Ganei Tikva,1
+Israel,Herzliya,1
+Israel,Ness Ziona,1
+Israel,Tel Aviv,5
+Italy,Bologna,1
+Italy,Cesena,3
+Italy,Florence,1
+Italy,Glurns,1
+Italy,Modena,1
+Italy,Rome,5
+Italy,Santa Vittoria d'Alba,1
+Italy,Venice,1
+Japan,Kinuta,1
+Japan,Tokyo,1
+Latvia,Riga,3
+Lithuania,Vilnius,1
+Luxembourg,Luxembourg,3
+Maldives,Male,2
+Mexico,Ecatepec,2
+Mexico,Ocotlán,1
+Nigeria,Ibadan,1
+North Macedonia,Skopje,2
+Poland,Bialystok,1
+Poland,Jarocin,1
+Poland,Katowice,2
+Poland,Krakow,1
+Poland,Nowa Dęba,1
+Poland,Poznan,2
+Poland,Rząśnik,1
+Poland,Solec Kujawski,1
+Poland,Szczecin,2
+Poland,Warsaw,4
+Poland,Wyszków,1
+Portugal,Casal Comba,1
+Portugal,Guimarães,4
+Portugal,Lisbon,6
+Portugal,Mirandela,1
+Portugal,Porto,1
+Portugal,Vila Nova de Famalicão,3
+Romania,Bucharest,3
+Romania,Chiajna,1
+Russia,Dyatkovo,1
+Russia,Moscow,4
+Russia,St Petersburg,1
+Russia,Yekaterinburg,1
+Rwanda,Kigali,1
+Singapore,Singapore,1
+Slovakia,Banská Bystrica,5
+Slovakia,Bratislava,3
+Slovakia,Dunajská Streda,1
+Slovakia,Nitra,12
+Slovenia,Maribor,4
+South Africa,Cape Town,1
+South Korea,Bupyeong-gu,1
+South Korea,Dalseo-gu,1
+South Korea,Eunpyeong-gu,1
+South Korea,Gangnam-gu,1
+South Korea,Gwanak-gu,1
+South Korea,Yangsan,2
+Spain,Madrid,1
+Spain,Narón,1
+Spain,Santa Coloma de Farners,1
+Spain,Valladolid,1
+Sweden,Bandhagen,1
+Sweden,Gothenburg,1
+Sweden,Karlstad,1
+Sweden,Linköping,1
+Sweden,Luleå,7
+Sweden,Malmo,1
+Sweden,Norrköping,2
+Sweden,Stockholm,3
+Sweden,Örebro,1
+Switzerland,Aarau,1
+Switzerland,Adliswil,1
+Switzerland,Basel,1
+Switzerland,Bernex,1
+Switzerland,Birsfelden,1
+Switzerland,Bülach,1
+Switzerland,Ehrendingen,2
+Switzerland,Frauenfeld,1
+Switzerland,Geneva,1
+Switzerland,Männedorf,1
+Switzerland,Payerne,2
+Switzerland,Remetschwil,1
+Switzerland,Rorschach,4
+Switzerland,Spreitenbach,3
+Switzerland,Uitikon,1
+Switzerland,Verbier,1
+Switzerland,Waldkirch,1
+Switzerland,Zurich,15
+Taiwan,Kaohsiung,1
+Taiwan,Taipei,1
+Thailand,Bangkok,1
+The Netherlands,'s-Hertogenbosch,1
+The Netherlands,Alphen aan den Rijn,1
+The Netherlands,Amsterdam,15
+The Netherlands,Arnhem,2
+The Netherlands,Breda,1
+The Netherlands,Dieren,2
+The Netherlands,Doetinchem,1
+The Netherlands,Dordrecht,1
+The Netherlands,Drunen,2
+The Netherlands,Eindhoven,1
+The Netherlands,Enschede,2
+The Netherlands,Heerhugowaard,2
+The Netherlands,Helmond,1
+The Netherlands,Hendrik-Ido-Ambacht,1
+The Netherlands,Lunteren,1
+The Netherlands,Maastricht,1
+The Netherlands,Naaldwijk,2
+The Netherlands,Nijmegen,1
+The Netherlands,Panningen,1
+The Netherlands,Pijnacker,2
+The Netherlands,Purmerend,31
+The Netherlands,Rhoon,2
+The Netherlands,Rotterdam,4
+The Netherlands,Schiedam,3
+The Netherlands,Spijkenisse,1
+The Netherlands,The Hague,1
+The Netherlands,Utrecht,2
+The Netherlands,Veldhoven,1
+The Netherlands,Vught,1
+The Netherlands,Wervershoof,1
+The Netherlands,Zundert,4
+Tunisia,Aryanah,1
+Tunisia,Nabeul,1
+Türkiye,Istanbul,5
+Türkiye,Konya,1
+Ukraine,Dnipro,3
+Ukraine,Kyiv,17
+Ukraine,Lviv,1
+United Arab Emirates,Dubai,3
+United Arab Emirates,Sharjah,2
+United Kingdom,Alness,1
+United Kingdom,Cambridge,1
+United Kingdom,Cardiff,1
+United Kingdom,City of Westminster,1
+United Kingdom,Glasgow,3
+United Kingdom,Ilford,2
+United Kingdom,Leicester,1
+United Kingdom,London,8
+United Kingdom,Loughton,1
+United Kingdom,Luton,2
+United Kingdom,Manchester,4
+United Kingdom,Milton Keynes,1
+United Kingdom,Montrose,1
+United Kingdom,Southampton,1
+United Kingdom,Southwark,2
+United Kingdom,Tower Hamlets,1
+United Kingdom,West Bromwich,1
+Vietnam,Biên Hòa,1
+Vietnam,Ho Chi Minh City,2
+Vietnam,Long An,1
