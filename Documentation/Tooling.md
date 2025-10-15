@@ -3,7 +3,7 @@
 
 ### Knime (First look, EDA & Data Partitioning)
 
-### Python 3.13 (Numpy, Pandas, PX, Dash)
+### Python 3.13 
 
 Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
 
@@ -17,7 +17,7 @@ Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
     - CSV
     - XML
 
-Hierzu wurden neben den erwähnten Bibliotheken Helferklassen erstellt [(Package WikiTeleFoo: ```wtk```)](../Dashboards/python/wtf/README.md)
+Hierzu wurden neben der Verwendung der erwähnten Bibliotheken (Numpy, Pandas, PX, Dash) diverse Helferklassen erstellt [(im Package WikiTeleFoo: ```wtk```)](../Dashboards/python/wtf/README.md)
 
 ### SQL 
 
