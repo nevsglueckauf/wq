@@ -32,7 +32,7 @@ Somit werdn eine schnelle Auswertungen, (Views, Aggregationen, etc.) sowie ein E
 
 ## Externe Datenquellen
 
-Zur Visulalisierung der geografischen Verteilung der Sitzungen wurden folgenden REssourcene benutzt:
+Zur Visulalisierung der geografischen Verteilung der Sitzungen wurden folgende Resourcen benutzt:
 
 - [ISO 3166 Mapping](https://www.kaggle.com/datasets/wbdill/country-codes-iso-3166) 
-- [Lng/Lat](https://simplemaps.com/data/world-cities)
+- [Lng/Lat - Mapping](https://simplemaps.com/data/world-cities)
