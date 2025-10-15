@@ -83,6 +83,8 @@ layout = html.Div(
      
         html.H3(sub_title),
         html.H3(header),
+        card,
+        pie_col,
         dag.AgGrid(
             id="main_grid_basic",
             rowData=df.to_dict("records"),

@@ -19,7 +19,9 @@ import base64
 import datetime
 import io
 import dash_daq as daq
+
 from wtf.container import Container
+from wtf.generic_elements import ElementBuilder
 
 s = str(datetime.datetime.now())
 now =  s[:16]
@@ -43,8 +45,8 @@ tab = Container()
 
 tab.apd_row([colz[7], colz[5]])
 tab.apd_row([colz[6], colz[8], colz[4]])
-tab.apd_row([colz[0], colz[1]])
-tab.apd_row([colz[2], colz[3]])
+# tab.apd_row([colz[0], colz[1]])
+# tab.apd_row([colz[2], colz[3]])
 #dbc.Row()
 
 container = Container()
@@ -54,7 +56,17 @@ container.apd(tab.rndr())
 
 
 #print(tab.rndr())
+#   
+#   
+# https://upload.wikimedia.org/wikipedia/commons/9/91/Zend_logo.svg
+img ="https://upload.wikimedia.org/wikipedia/commons/9/91/Zend_logo.svg"
+#img = "/favicon-32x32.png"
+eb = ElementBuilder()
 
 layout = html.Div(
-    container.rndr()    
+    eb.card(dta=tab.rndr() ,title="Lsrem IPsum", img_src=img)
 )
+
+#print(Dash.get_asset_url('favico.ico', path=))
+
+# static/images/favicon-32x32.png

@@ -4,12 +4,12 @@ import plotly.express as px
 
 #filepath = "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv"
 
-df_de = pd.read_csv("exporte/sess_loc_DE.csv")
+df = pd.read_csv("exporte/sess_loc_DE.csv")
 
-df = pd.read_csv("exporte/sess_loc_non_DE.csv")
+#df = pd.read_csv("exporte/sess_loc_non_DE.csv")
 #df.to_csv("volcano.csv", index=False)
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
-len_df = len(df)
+#len_df = len(df)
 
 register_page(__name__)
 # country,state,county,name,lat,lng
@@ -18,9 +18,10 @@ fig = px.scatter_geo(
         data_frame=df,
         lat="lat",
         lon="lng",
-        #size=range(0, len(df))  ,
+        size="sessions",
         hover_name="name",
-        projection="natural earth",
+        projection="eckert4",
+        #projection="natural earth",
         #projection="transverse mercator",
         #projection="robinson",#kavrayskiy7
         #projection="orthographic",#
