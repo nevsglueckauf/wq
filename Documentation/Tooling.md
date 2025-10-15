@@ -11,7 +11,7 @@ Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
 - EDA 
 - Grafische Datenanalyse
 - Dashboard(s)
-- Admin-Tool (Import neuer Daten)
+- Admin-Tool (Import neuer Daten, Definition von KPIs, Diagrammwahl)
 - Export der Daten (mit Filter-, Sortierkriterien) nach:
     - SQL
     - CSV
@@ -28,5 +28,5 @@ Aus den "Rohdaten" wird (via Python) eine Extraktion der Daten vorgenommen und d
 Die Daten werden in eine lokale PostreSQL- und Sqlite- Instanz übernommen und als generisches SQL- (DDL, DML) Schema
 ablegt, sodass eine Übernahme in andere RDBMS möglich ist.
 
-Somit wird eine schnelle Auswertung (Views, Aggregationen, Export) der Daten zu jedem Zeitpunkt ermöglicht.
+Somit werdn eine schnelle Auswertungen, (Views, Aggregationen, etc.) sowie ein Export der Daten zu jedem Zeitpunkt ermöglicht.
 
