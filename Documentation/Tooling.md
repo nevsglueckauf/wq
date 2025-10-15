@@ -16,8 +16,8 @@ Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
     - SQL
     - CSV
     - XML
-    
 
+Hierzu wurden neben den erwähnten Bibliotheken Helferklassen erstellt [(Package WikiTeleFoo: ```wtk```)](../Dashboards/python/wtf/README.md)
 
 ### SQL 
 
