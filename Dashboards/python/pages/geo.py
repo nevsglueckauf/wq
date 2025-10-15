@@ -3,8 +3,10 @@ import pandas as pd
 import plotly.express as px
 
 #filepath = "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv"
-
-df = pd.read_csv("exporte/sess_loc_DE.csv")
+# 
+#df = pd.read_csv("exporte/sess_loc_DE.csv")
+df_o = pd.read_csv("exporte/sess_loc_all.csv")
+df = df_o[['datum', 'sess_ctry', 'sess_loc', 'sessions', 'lng', 'lat', 'kontrollland'] ]
 
 #df = pd.read_csv("exporte/sess_loc_non_DE.csv")
 #df.to_csv("volcano.csv", index=False)
@@ -19,7 +21,7 @@ fig = px.scatter_geo(
         lat="lat",
         lon="lng",
         size="sessions",
-        hover_name="name",
+        hover_name="sess_loc",
         projection="eckert4",
         #projection="natural earth",
         #projection="transverse mercator",

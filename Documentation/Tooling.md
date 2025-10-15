@@ -35,4 +35,4 @@ Somit werdn eine schnelle Auswertungen, (Views, Aggregationen, etc.) sowie ein E
 Zur Visulalisierung der geografischen Verteilung der Sitzungen wurden folgenden REssourcene benutzt:
 
 - [ISO 3166 Mapping](https://www.kaggle.com/datasets/wbdill/country-codes-iso-3166) 
-- [Lng/Lat](https//:www.example.org)
+- [Lng/Lat](https://simplemaps.com/data/world-cities)
