@@ -20,6 +20,7 @@ class DD:
         "Home": "Start",
         "Geo": "Geodaten",
         "Lab": "DEV Labor(Spielwiese)",
+        "Leaf": "Leaflet Demo"
     }
 
     col_transl = {

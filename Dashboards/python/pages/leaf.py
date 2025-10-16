@@ -1,0 +1,17 @@
+from dash import Dash, dcc, html, Input, Output, ctx, register_page, callback
+import pandas as pd
+import plotly.express as px
+from wtf.provider import Provider
+import dash_leaflet as dl
+
+# df = pd.read_csv("exporte/sess_loc_non_DE.csv")
+# df.to_csv("volcano.csv", index=False)
+
+external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
+
+register_page(__name__)
+
+
+
+
+layout = dl.Map(dl.TileLayer(), center=[56, 10], zoom=6, style={"height": "50vh"})

@@ -24,7 +24,7 @@ from wtf.container import Container
 from wtf.generic_elements import ElementBuilder
 
 s = str(datetime.datetime.now())
-now =  s[:16]
+now = s[:16]
 sub_title = "DEV Lab"
 register_page(__name__)
 sessions = {"Absprünge": 1592, "Warenkorb": 114, "CO err.": 91, "CO= abgeschl.": 39}
@@ -33,12 +33,8 @@ pie = px.pie(names=sessions.keys(), values=sessions.values(), hole=0.3)
 
 colz = []
 for x in range(9):
-    
-    ele = pie_col = dbc.Col(
-        [
-            html.H3(str(x)+'_Foo')
-        ]
-    )
+
+    ele = pie_col = dbc.Col([html.H3(str(x) + "_Foo")])
     colz.append(ele)
 
 tab = Container()
@@ -47,7 +43,7 @@ tab.apd_row([colz[7], colz[5]])
 tab.apd_row([colz[6], colz[8], colz[4]])
 # tab.apd_row([colz[0], colz[1]])
 # tab.apd_row([colz[2], colz[3]])
-#dbc.Row()
+# dbc.Row()
 
 container = Container()
 container.apd(html.H3(sub_title))
@@ -55,18 +51,20 @@ container.apd(dcc.Graph(figure=pie, id="pie-kpi"))
 container.apd(tab.rndr())
 
 
-#print(tab.rndr())
-#   
-#   
+# print(tab.rndr())
+#
+#
 # https://upload.wikimedia.org/wikipedia/commons/9/91/Zend_logo.svg
-img ="https://upload.wikimedia.org/wikipedia/commons/9/91/Zend_logo.svg"
-#img = "/favicon-32x32.png"
+img = "https://upload.wikimedia.org/wikipedia/commons/9/91/Zend_logo.svg"
+img = (
+    "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"
+)
+img = "https://www.cleanpng.com/static/img/logo.png"
+# img = "/favicon-32x32.png"
 eb = ElementBuilder()
 
-layout = html.Div(
-    eb.card(dta=tab.rndr() ,title="Lsrem IPsum", img_src=img)
-)
+layout = html.Div(eb.card(dta=tab.rndr(), title="Lsrem IPsum", img_src=img))
 
-#print(Dash.get_asset_url('favico.ico', path=))
+# print(Dash.get_asset_url('favico.ico', path=))
 
 # static/images/favicon-32x32.png

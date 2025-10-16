@@ -210,3 +210,5 @@ grube.*
 tmp/
 .venv/
 BigDataSets/*
+sort.txt
+san_*

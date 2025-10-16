@@ -48,7 +48,7 @@ layout = html.Div(
         ),
         dcc.Graph(id="geo-map", figure=fig),
     ],
-    style={"margin": 10, "maxWidth": "500px"},
+    style={"margin": 10, "maxWidth": "1500px"},
 )
 
 

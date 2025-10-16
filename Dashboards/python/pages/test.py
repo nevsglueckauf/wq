@@ -4,11 +4,27 @@ import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
 
+
+from wtf.factory import TabFactory
+from wtf.generic_elements import ElementBuilder
 from dd import DD
 
-sub_title = "Laborseite"
+sub_title = "Laborseite:: Umsätze je Tag pro Marke"
+start_brands = ["apple", "electrolux", "beko", "a-mega"]
+brand = TabFactory.df(f"../../Data/Norm/brandz.csv")
+bl = list(brand["brand_name"])
+dd = ElementBuilder.dd(
+    df=bl,
+    strt_colz=start_brands,
+    id="brnd-dd"
+)
+file = "brnd_per_day_sales_all.csv"
+df = pd.read_csv(f"../../Data/Agg/{file}")
+df_g = df[df["brand"].isin(start_brands)]
+fig = px.line(data_frame=df_g, x="date", y="price", color="brand")
 
 
+# print(bl)
 register_page(__name__)
 
 
@@ -21,64 +37,19 @@ register_page(__name__)
 
 #     return fig
 
-layout = html.Div([
-     html.H1(sub_title),
-        dcc.Checklist(
-            ["New York City", "Montréal", "San Francisco"],
-            ["New York City", "Montréal"],
-            inline=True,
-        ),
-    dcc.Tabs(id='tabs-example-1', value='tab-1', children=[
-        dcc.Tab(label='Sitzungen', value='tab-1'),
-        dcc.Tab(label='Umsätze', value='tab-2'),
-        dcc.Tab(label='Admin Panel', value='tab-3'),
-    ]),
-    html.Div(id='tabs-example-content-1')
-])
-
-@callback(
-    Output('tabs-example-content-1', 'children'),
-    Input('tabs-example-1', 'value')
+layout = html.Div(
+    [
+        html.H1(sub_title),
+        dd,
+        dcc.Graph(figure=fig, id="brnd-controls-and-graph"),
+    ]
 )
-def render_content(tab):
-    if tab == 'tab-1':
-        return html.Div([
-            html.H3('Tab content 1'),
-            dcc.Graph(
-                figure=dict(
-                    data=[dict(
-                        x=[1, 2, 3],
-                        y=[3, 1, 2],
-                        type='bar'
-                    )]
-                )
-            )
-        ])
-    elif tab == 'tab-2':
-        return html.Div([
-            html.H3('Tab content 2'),
-            dcc.Graph(
-                figure=dict(
-                    data=[dict(
-                        x=[1, 2, 3],
-                        y=[5, 10, 6],
-                        type='bar'
-                    )],
-                    template="plotly_dark",
-                )
-            )
-        ])
-    else: 
-         return html.Div([
-            html.H3('Admin'),
-            dcc.Graph(
-                figure=dict(
-                    data=[dict(
-                        x=[1, 2, 3, 99, 102, 300],
-                        y=[5, 10, 6, 99, 235, 666],
-                        type='bar'
-                    )]
-                )
-            )
-        ])
 
+ 
+@callback(
+    Output(component_id="brnd-controls-and-graph", component_property="figure"),
+    Input(component_id="brnd-dd", component_property="value"),
+)
+def update_data(brands):
+    df_g = df[df["brand"].isin(brands)]
+    return  px.line(data_frame=df_g, x="date", y="price", color="brand")

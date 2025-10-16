@@ -42,10 +42,11 @@ class TabFactory:
     txt_cl_scn = "#0A1F3F" # 2. text color
 
     @staticmethod
-    def df(ds: str, dt: str) -> pd.DataFrame:
+    def df(ds: str, dt= "") -> pd.DataFrame:
         """Getting dataframe from given data source"""
         df = pd.read_csv(ds)
-        df[dt] = pd.to_datetime(df[dt], format="%Y-%m-%d")
+        if dt != "" :
+            df[dt] = pd.to_datetime(df[dt], format="%Y-%m-%d")
         return df
         # print(ds, dt)
         # exit(23)

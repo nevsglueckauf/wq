@@ -25,24 +25,37 @@ from typing import Self
 
 from wtf.container import Container
 
+
 class ElementBuilder:
-    
-    title_el = 'h3'
-    
+
+    title_el = "h3"
+
     def __init__(self):
         pass
-    
+
     @staticmethod
-    def card(dta, title:str="", img_src="") -> dbc.Card:
+    def card(dta, title: str = "", img_src="", wdth="23rem") -> dbc.Card:
         tmp = Container()
-        
+
         if img_src != "":
             tmp.apd(dbc.CardImg(src=img_src, top=True))
-            
+
         if title != "":
             tmp.apd(html.H4(title, className="card-title"))
-        
+
         tmp.apd(dbc.CardBody(dta))
-        return dbc.Card(tmp.rndr())
-    
-        
+        return dbc.Card(
+            tmp.rndr(),
+            style={"width": wdth},
+            outline=True,
+        )
+    @staticmethod
+    def dd(df, strt_colz = [], id=""):
+        return dcc.Dropdown(
+            id=id,
+            options=df,
+            value=strt_colz,
+            multi=True,
+            className='dropdown-class',
+            style={'background-color':'#011213'}
+        )

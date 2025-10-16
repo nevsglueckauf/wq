@@ -10,6 +10,7 @@ from dash import (
     State,
     register_page,
 )
+import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
@@ -24,6 +25,7 @@ fn = "uploads/" + s[:16].replace(" ", "_").replace(":", "").replace("-", "") + "
 
 register_page(__name__)
 sub_title = "Dateiverwaltung"
+
 
 
 layout = html.Div(
@@ -116,3 +118,6 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
             for c, n, d in zip(list_of_contents, list_of_names, list_of_dates)
         ]
         return children
+
+
+
