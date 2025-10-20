@@ -9,7 +9,7 @@ import dash_leaflet as dl
 
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
-register_page(__name__)
+#register_page(__name__)
 
 
 
