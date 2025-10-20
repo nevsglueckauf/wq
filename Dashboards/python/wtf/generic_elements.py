@@ -14,6 +14,7 @@ from dash import (
     dcc,
     Patch,
 )
+
 import dash_mantine_components as dmc
 import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import load_figure_template
@@ -49,13 +50,29 @@ class ElementBuilder:
             style={"width": wdth},
             outline=True,
         )
+
     @staticmethod
-    def dd(df, strt_colz = [], id=""):
+    def dd(df, strt_colz=[], id=""):
         return dcc.Dropdown(
             id=id,
             options=df,
             value=strt_colz,
             multi=True,
-            className='dropdown-class',
-            style={'background-color':'#011213'}
+            className="dropdown-class",
+            style={"background-color": "#011213"},
         )
+
+    @staticmethod
+    def col(ctnt) -> dbc.Col:
+        return dbc.Col(ctnt)
+
+    @staticmethod
+    def row(ctnt) -> dbc.Row:
+        return dbc.Row(ctnt)
+
+    @staticmethod
+    def row(rows: list) -> list:
+        tmp = []
+        for row in rows:
+            tmp.append(dbc.Row(row))
+        return tmp
