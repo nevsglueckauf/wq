@@ -37,6 +37,9 @@ Zur Visulalisierung der geografischen Verteilung der Sitzungen wurden folgende R
 - [ISO 3166 Mapping](https://www.kaggle.com/datasets/wbdill/country-codes-iso-3166) 
 - [Lng/Lat - Mapping](https://simplemaps.com/data/world-cities)
 
+
+### Geo-Mapping
+
 ```mermaid
 erDiagram
     Sitzungen ||--o{ ISO3166-MAPPING : mapping

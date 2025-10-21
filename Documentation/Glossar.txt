@@ -1,0 +1,9 @@
+DRY - Don't Repeat Yourself
+HTML - Hypertext Markup Language
+SQL - Strucutred Query Language
+CSV - Comma Separated Values
+XML - Extensible Markup Language
+KPI - Key Performance Indicator
+CPC - Costs Per Click
+CR - Conversion Rate
+CTR - Click-Through-Rate

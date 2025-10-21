@@ -1,10 +1,10 @@
-# Wiki Tele Foo
+# Whisky Tele Foo wtf
 
 Package-Name für die selbst gecodeten Python-Scripte
 
-- Verwendung von Helferklassen zur Vermeidung von Boilerplate-Code
+- Verwendung von Helferklassen zur Vermeidung von (Boilerplate-) Code
 - Datenbereinigungstools
-- HTML-Generierung (DRY)
+- HTML-Generierung (<abbr title="Don't repeat yourself">DRY</abbr>)
 - SQL-Generierung
 
 
