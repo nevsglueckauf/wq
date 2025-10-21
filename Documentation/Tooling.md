@@ -17,7 +17,7 @@ Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
     - CSV
     - XML
 
-Hierzu wurden neben der Verwendung der erwähnten Bibliotheken (Numpy, Pandas, PX, Dash) diverse Helferklassen erstellt [(im Package WikiTeleFoo: ```wtk```)](../Dashboards/python/wtf/README.md)
+Hierzu wurden neben der Verwendung der erwähnten Bibliotheken (Numpy, Pandas, PX, Dash) diverse Helferklassen erstellt [(im Package WhiskyTeleFoo: ```wtf```)](../Dashboards/python/wtf/README.md)
 
 ### SQL 
 
@@ -36,3 +36,23 @@ Zur Visulalisierung der geografischen Verteilung der Sitzungen wurden folgende R
 
 - [ISO 3166 Mapping](https://www.kaggle.com/datasets/wbdill/country-codes-iso-3166) 
 - [Lng/Lat - Mapping](https://simplemaps.com/data/world-cities)
+
+```mermaid
+erDiagram
+    Sitzungen ||--o{ ISO3166-MAPPING : mapping
+    Sitzungen {
+        string Sitzungsland FK
+    }
+    GEO_DATA ||--o{ ISO3166-MAPPING : mapping
+    GEO_DATA {
+        string iso2 PK 
+        float lng
+        float lat
+    }
+    ISO3166-MAPPING {
+        string name PK, FK
+        string iso2 PK, FK
+    }
+ 
+
+```
