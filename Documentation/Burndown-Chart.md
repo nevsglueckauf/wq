@@ -1,3 +1,4 @@
+```mermaid
 ---
 config:
   kanban:
@@ -21,3 +22,4 @@ kanban
 
   id12[Can't reproduce]
     id3[Weird flickering in Firefox]
+```
