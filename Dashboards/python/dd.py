@@ -3,7 +3,7 @@
 # AUTHOR Sven Schrodt
 # SINCE 2025-09-26
 class DD:
-    """ Data Dictionary class matching names<->labels(@GUI) and vice versa
+    """ Data Dictionary class matching names<->labels(@GUI)
     """
     
     pages = {
