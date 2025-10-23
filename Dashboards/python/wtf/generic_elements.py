@@ -30,7 +30,7 @@ from wtf.container import Container
 class ElementBuilder:
 
     title_el = "h3"
-
+    id = 333
     def __init__(self):
         pass
 
@@ -52,7 +52,7 @@ class ElementBuilder:
         )
 
     @staticmethod
-    def dd(df, strt_colz=[], id=""):
+    def dd(df, strt_colz=[], id="") -> dcc.Dropdown:
         return dcc.Dropdown(
             id=id,
             options=df,

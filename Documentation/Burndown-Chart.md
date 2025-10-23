@@ -7,7 +7,7 @@ config:
 ---
 kanban
   Todo
-    [Python ML]
+    [Python ML Code]
     docs[Beschreibung der Modelle]
   [In progress]
     id6[Dash/Plotly Dashboard]
