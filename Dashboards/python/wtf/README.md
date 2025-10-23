@@ -77,4 +77,10 @@ classDiagram
 
     }
     
+
+    style DataFrame fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+
+    class DataFrame{
+
+    }
 ```

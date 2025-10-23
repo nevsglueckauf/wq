@@ -45,7 +45,7 @@ Das Endprodukt dieses Projekts ist ein umfassendes PowerBI-Dashboard, das:
 
 ## 🔄 Projektablauf & Kommunikation
 
-*   Der Projektablauf orientiert sich an agilen Methoden (Scrumban).
+*   Der Projektablauf orientiert sich an agilen Methoden ([Scrumban](Documentation/Projekt_Orga_Scrum.md)).
 *   **Statusmeetings** finden alle zwei Wochen statt.
 *   Der laufende Austausch erfolgt über **WhatsApp und E-Mail**.
 *   Dieses GitHub-Repository dient als zentrale Quelle für Code, Dokumentation und Issue-Tracking.
