@@ -19,11 +19,11 @@ class Sanitizer:
         """_summary_
 
         Args:
-            nm (str): name of date column
-            frm (str): from date
-            utl (str): until date
+            nm (str): Name der Datumsspalte
+            frm (str): from Datum
+            utl (str): until Datum
             freq (str, optional): Frequency; defaults to 'D'.
-            format (str, optional): Optional datee format string Defaults to 'YYYY-mm-dd'.
+            format (str, optional): Optional Datumsformat string Defaults to 'YYYY-mm-dd'.
 
         Returns:
             pd.DataFrame: _description_
