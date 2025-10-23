@@ -14,7 +14,7 @@ Package-Name für die selbst gecodeten Python-Scripte
 
 ## wtf.provider 
 
- - Klasse, Content für GUI zu mana
+ - Content für GUI managen
 
 
  ## wtf.sanitize
