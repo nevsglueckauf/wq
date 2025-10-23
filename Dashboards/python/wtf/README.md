@@ -39,6 +39,8 @@ classDiagram
     note for ElementBuilder "Wrapper für dash.* Komponenten (DRY)"
     note for Sanitizer "Datenbereingung"
     note for Provider "Content für GUI"
+    note for TabFactory "Factory für Tab Content"
+
     class Container{
         +String rt = None
         +String dta = None
@@ -61,8 +63,18 @@ classDiagram
     class Provider{
         
         +get_brands(self) list
+        +get_sales_per(self, mode="daily") list
+
     }
     class Sanitizer{
-        +get_time_df(nm, frm, utl, freq='D', format='YYYY-mm-dd') pd.DataFrame:
+        +get_time_df(nm, frm, utl, freq='D', format='YYYY-mm-dd') pd.DataFrame
     }
+
+    class TabFactory{
+        +df(ds, dt= "") pd.DataFrame
+        +generic(ds) html.Div
+        +grid()
+
+    }
+    
 ```
