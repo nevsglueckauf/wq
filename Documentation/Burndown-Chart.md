@@ -1,9 +1,9 @@
 ### Kanban Board
 ```mermaid
 ---
-config:
+config: 
   kanban:
-    ticketBaseUrl: 'https://mermaidchart.atlassian.net/browse/#TICKET#'
+    ticketBaseUrl: 'https://gwen:8666/list/curr#TICKET#'
 ---
 kanban
   Todo

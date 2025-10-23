@@ -31,7 +31,7 @@ Das Endziel ist die Bereitstellung eines PowerBI-Dashboards, das die "done" KPIs
 ## 🛠 Technologie-Stack
 
 *   **Datenanalyse & -processing:** Python (Pandas, NumPy, SciKit-Learn)
-*   **Datenvisualisierung & Dashboarding:** Microsoft Power BI
+*   **Datenvisualisierung & Dashboarding:** Microsoft Power BI, [Python Dash](https://dash.plotly.com/)
 *   **Versionskontrolle & Kollaboration:** Git / GitHub
 
 ## 📊 Erwartetes Ergebnis
