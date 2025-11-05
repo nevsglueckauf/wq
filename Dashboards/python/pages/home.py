@@ -20,7 +20,6 @@ layout = html.Div(
         html.H3(sub_title),
         html.P(s),
         html.P("Lorem Ispum"),
-        html.Div(id='output-data-upload'),
     ]
 )
 
