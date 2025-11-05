@@ -13,5 +13,6 @@
 > [!NOTE]  
 > [Hier](Glossar.txt) wird die Liste aktuell gepflegt und später per Script nach Markdown umgewandelt - :rofl:
 
-#Foo :feelsgood:
+### Foo :feelsgood:
 
+:feelsgood: 
