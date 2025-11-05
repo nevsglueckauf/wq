@@ -83,10 +83,6 @@ def parse_contents(contents, filename, date):
         [
             html.H5(filename),
             html.H6(datetime.datetime.fromtimestamp(date)),
-            # dash_table.DataTable(
-            #     df.to_dict('records'),
-            #     [{'name': i, 'id': i} for i in df.columns]
-            # ),
             dag.AgGrid(
                 id="main_grid_basic",
                 rowData=df.to_dict("records"),
