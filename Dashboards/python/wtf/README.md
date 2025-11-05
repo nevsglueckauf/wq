@@ -1,6 +1,6 @@
 # <img src="../assets/whisk_rox.png"> Data on the Rocks
 
-## Whisky Tumbler Foo wtf
+## Package Whisky Tumbler Foo (wtf)
 
 Package-Name für die selbst gecodeten Python-Scripte
 
