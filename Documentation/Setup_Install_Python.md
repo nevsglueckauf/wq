@@ -1,10 +1,5 @@
 # <img src="../Dashboards/python/assets/whisk_rox.png"> „Data on the rocks“
 
-> [!TIP]  
-> Shell- und Batch-Scripte zum setup gibt es [hier](../toolz/)
-
-
-
 ## Setup Beispiel für X
 
 > [!NOTE]  
@@ -16,6 +11,8 @@
 <kbd>git clone https://github.com/nevsglueckauf/wq</kbd>
 
 
+> [!TIP]  
+> Shell- und Batch-Scripte zum automatische **Setup** gibt es [hier](../toolz/)
 
 ## Verzeichniswechsel
 
