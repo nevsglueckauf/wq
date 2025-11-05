@@ -5,3 +5,5 @@
 
 ## #Aktuell 
 - [x] Mehrfache *.py entfernt
+- [ ] Ordner ```kaggle_san```, ```exporte```und ```output``` zusammenführen!
+- [x] *berflüssige *.py Dateien entfernen
