@@ -11,15 +11,15 @@ class DD:
         "Sales": "Umsätze n. Vertriebskan.",
         "Upload": "Admin Panel",
         "Products": "Produkte",
-        "Test": "Lab page",
+        "Test": "Lab page (Tests)",
         "Ads": "Werbeerfolge",
         "Ml": "ML Stuff",
         "Kpi": "KPIs",
-        "Funnel": "Funnel - (Sitzungstyp)",
+        "Funnel": "Funnel - (NWQ:Sitzungstyp)",
         "Dailysale": "Tagesumsätze",
         "Home": "Start",
         "Geo": "Geodaten",
-        "Lab": "DEV Labor(Spielwiese)",
+        "Lab": "DEV Labor (NWQ:Spielwiese)",
         "Leaf": "Leaflet Demo"
     }
 

@@ -2,3 +2,6 @@
 
 > [!CAUTION]  
 > Hier (```Dashboards/Python```) wird noch aufgeräumt und die Dateistruktur ggf. angepasst
+
+## #Aktuell 
+- [x] Mehrfache *.py entfernt
