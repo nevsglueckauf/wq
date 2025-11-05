@@ -4,15 +4,23 @@
 
 > [!TIP]  
 > Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.) 
-> -> für Wintendo Boxen mit Hinweisen
+> -> für **Win**tendo Boxen mit Hinweisen
 
 ## Repo clonen
 
 <kbd>git clone https://github.com/nevsglueckauf/wq</kbd>
 
-<kbd>cd wq</kbd>
 
 
+## Verzeichniswechsel
+
+<kbd>cd wq/Dashboards/python </kbd>
+
+### In Windows
+
+<kbd>Z:\wq> <kbd>```cd wq\Dashboards\python```
+
+<kbd>cd wq/ Dashboards/python </kbd>
 
 ## VENV
 
@@ -24,35 +32,37 @@
 <code>sven@Thanos wq% </code><kbd>python3 -m venv .venv</kbd>
 
 ### Virtuelle Umgebung aktivieren
-<code>sven@Thanos wq% </code><kbd>source .venv/bin/activate</kbd>
 
-<code><span style="color:green">(.venv)</span> sven@Thanos wq% </code>
+<code>sven@Thanos python% </code><kbd>source .venv/bin/activate</kbd>
+
+<code><span style="color:green">(.venv)</span> sven@Thanos python% </code>
 
 #### Für Wintendo Boxen:
 
-```PS
-<kbd>Z:\wq> <kbd>.\ venv\Scripts\activate.
-```
+
+<kbd>Z:\python> <kbd>.\venv\Scripts\activate
+
 
 ## Dependencies auflösen
 
-<code><span style="color:green">(.venv)</span> sven@Thanos wq% </code><kbd>pip install -r req.txt</kbd>
+
+<code><span style="color:green">(.venv)</span> sven@Thanos python% </code><kbd>pip install -r requirements.txt</kbd>
+
+### Windows
+
+<kbd>Z:\python> <kbd>pip install -r requirements.txt
 
 ## App starten
+
 Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
-
-
-
-
-## Setup Beispiel für Wintendo-Boxen
 
 ```sh
 (.venv) svenschrodt@Thanos wq% python app.py > /dev/null  2>&1 &
 ```
 
-#### Für Wintendo Boxen:
+#### Für Windows
 
 ```PS
-Z:\wq> py.exe app.py
+Z:\python> py.exe app.py
 ```
 
