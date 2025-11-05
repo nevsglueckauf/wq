@@ -1,4 +1,5 @@
 # <img src="../assets/whisk_rox.png"> Data on the Rocks
+
 ## Whisky Tumbler Foo wtf
 
 Package-Name für die selbst gecodeten Python-Scripte
@@ -8,28 +9,28 @@ Package-Name für die selbst gecodeten Python-Scripte
 - HTML-Generierung (<abbr title="Don't repeat yourself">DRY</abbr>)
 - SQL-Generierung
 
-### wtf.container 
+### wtf.container
 
- - Klasse, um (HTML-) Container zu verwalten und dem DRY-Prinzip Folge zu leisten
+- Klasse, um (HTML-) Container zu verwalten und dem DRY-Prinzip Folge zu leisten
 
-### wtf.provider 
+### wtf.provider
 
- - Content für GUI managen
+- Content für GUI managen
 
+### wtf.sanitize
 
- ### wtf.sanitize
+- Generische Klasse für die Datenbereinigung
 
- - Generische Klasse für die Datenbereinigung
+### wtf.generic_elements
 
- ### wtf.generic_elements
-
- - Generische Klasse für die Erzeugung von HTML; DRY
+- Generische Klasse für die Erzeugung von HTML; DRY
 
 ### wtf.factory
 
- - Factory für die Erzeugung von HTML; DRY
+- Factory für die Erzeugung von HTML; DRY
 
- #### Klassendiagramm
+#### Klassendiagramm
+
 ```mermaid
  ---
 title: Helper
@@ -49,8 +50,8 @@ classDiagram
         +rndr_in(self, rt = "Div") list
     }
     ElementBuilder --> "many" Container : Uses
-    
-    
+   
+   
     ElementBuilder : +int id
     ElementBuilder : +String title_el = "h3"
     ElementBuilder: +init(self)
@@ -59,9 +60,9 @@ classDiagram
     ElementBuilder: col(ctnt) dbc.Col
     ElementBuilder: row(ctnt) dbc.Row
     ElementBuilder: row(rows) list
-    
+   
     class Provider{
-        
+       
         +get_brands(self) list
         +get_sales_per(self, mode="daily") list
 
@@ -76,7 +77,7 @@ classDiagram
         +grid()
 
     }
-    
+   
 
     style DataFrame fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 
