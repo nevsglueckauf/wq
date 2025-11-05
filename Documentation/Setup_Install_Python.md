@@ -18,51 +18,45 @@
 
 ### In Windows
 
-<kbd>Z:\wq> <kbd>```cd wq\Dashboards\python```
+<kbd>Z:> cd wq\Dashboards\python<kbd>
 
-<kbd>cd wq/ Dashboards/python </kbd>
 
 ## VENV
 
 ### Virtuelle Umgebung einrichten
 
 > [!IMPORTANT]  
-> Einmalig durchführen! 
+> Einmalig durchführen!
 
-<code>sven@Thanos wq% </code><kbd>python3 -m venv .venv</kbd>
+<kbd>user@Thanos python% python3 -m venv .venv</kbd>
 
 ### Virtuelle Umgebung aktivieren
 
-<code>sven@Thanos python% </code><kbd>source .venv/bin/activate</kbd>
+<kbd>user@Thanos python% source .venv/bin/activate</kbd>
 
-<code><span style="color:green">(.venv)</span> sven@Thanos python% </code>
 
 #### Für Wintendo Boxen:
 
 
-<kbd>Z:\python> <kbd>.\venv\Scripts\activate
+<kbd>Z:\python> .\venv\Scripts\activate</kbd>
 
 
 ## Dependencies auflösen
 
 
-<code><span style="color:green">(.venv)</span> sven@Thanos python% </code><kbd>pip install -r requirements.txt</kbd>
+<kbd><span style="color:green">(.venv)</span> user@Thanos python%  pip install -r requirements.txt</kbd>
 
 ### Windows
 
-<kbd>Z:\python> <kbd>pip install -r requirements.txt
+<kbd><span style="color:green">(.venv)</span> Z:\python> pip install -r requirements.txt</kbd>
 
 ## App starten
 
 Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
 
-```sh
-(.venv) svenschrodt@Thanos wq% python app.py > /dev/null  2>&1 &
-```
+<kbd><span style="color:green">(.venv)</span> user@Thanos wq% python app.py > /dev/null  2>&1 &</kbd>
 
 #### Für Windows
 
-```PS
-Z:\python> py.exe app.py
-```
+<kbd><span style="color:green">(.venv)</span> Z:\python> py.exe app.py
 
