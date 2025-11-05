@@ -2,7 +2,7 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input, register_
 import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
-from dd import DD
+from wtf.dd import DD
 from datetime import date
 import plotly.graph_objects as go
 
@@ -10,7 +10,7 @@ register_page(__name__)
 
 # Daten laden
 sub_title = "Analyse der Sitzungen"
-df = pd.read_csv("exporte/sessions.csv")
+df = pd.read_csv("Dta/exporte/sessions.csv")
 df["datum"] = pd.to_datetime(df["datum"], format="%Y-%m-%d")
 df["Sitzung_min"] = round(df["session_duration"] / 60, 2)
 

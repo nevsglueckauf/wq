@@ -2,13 +2,13 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input, register_
 import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
-from dd import DD
+from wtf.dd import DD
 
 register_page(__name__)
 
 # Daten laden
 sub_title = DD.pages['Sales']
-df = pd.read_csv('output/sales_per_channel.csv')
+df = pd.read_csv('Dta/output/sales_per_channel.csv')
 df['Tag'] = pd.to_datetime(df['Tag'], format='%Y-%m-%d')
 
 colz = ["Bestellungen","Bruttoumsatz","Rabatte","Rückgaben","Nettoumsatz","Versandgebühren","Steuern","Gesamtumsatz"]

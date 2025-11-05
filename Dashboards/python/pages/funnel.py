@@ -2,14 +2,14 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input, register_
 import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
-from dd import DD
+from wtf.dd import DD
 
 register_page(__name__)
 
 sub_title = "🔄 Sitzungstypen Analyse"
 
 # Daten laden
-df = pd.read_csv("exporte/_funnel.csv")
+df = pd.read_csv("Dta/exporte/_funnel.csv")
 df["Datum"] = pd.to_datetime(df["Datum"], format="%Y-%m-%d")
 
 # Original Graph

@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
 
-from dd import DD
+from wtf.dd import DD
 
 sub_title = "Laborseite"
 

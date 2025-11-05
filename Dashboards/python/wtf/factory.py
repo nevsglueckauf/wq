@@ -25,7 +25,7 @@ import pandas as pd
 import plotly.express as px
 
 # Projekteigene Module
-from dd import DD
+from wtf.dd import DD
 
 
 class TabFactory:

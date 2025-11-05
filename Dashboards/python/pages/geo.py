@@ -6,7 +6,7 @@ from wtf.provider import Provider
 register_page(__name__)
 
 # Daten laden
-df_o = pd.read_csv("exporte/sess_loc_all.csv")
+df_o = pd.read_csv("Dta/exporte/sess_loc_all.csv")
 df = df_o[["datum", "sess_ctry", "sess_loc", "sessions", "lng", "lat", "kontrollland"]]
 
 str_proj = "natural earth"

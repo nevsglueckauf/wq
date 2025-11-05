@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #filepath = "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv"
-df = pd.read_csv("geo_not_de.csv")
+df = pd.read_csv("Dta/geo_not_de.csv")
 #df.to_csv("volcano.csv", index=False)
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 len_df = len(df)

@@ -20,7 +20,7 @@ import dash
 load_figure_template(["sandstone", "simplex"])
 
 # project libs
-from dd import DD
+from wtf.dd import DD
 
 # from cfg import Cfg
 
@@ -151,5 +151,5 @@ app.index_string = '''
 '''
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    app.run(host="0.0.0.0")
     

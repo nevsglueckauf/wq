@@ -2,13 +2,13 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input, register_
 import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
-from dd import DD
+from wtf.dd import DD
 
 register_page(__name__)
 
 # Daten laden
 sub_title = DD.pages['Products']
-df = pd.read_csv('Whiskyquartier_Rohdaten/products.csv')
+df = pd.read_csv('Dta/Whiskyquartier_Rohdaten/products.csv')
 df["short"] = df["prod_name"].str[0:14]
 
 colz2 = ["invent_start","invent_end","sold_units","sell_rate"]

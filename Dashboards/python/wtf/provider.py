@@ -9,8 +9,8 @@ class Provider:
     """
     
     proj = ['equirectangular', 'mercator', 'orthographic', 'natural earth', 'kavrayskiy7', 'miller', 'robinson', 'eckert4', 'azimuthal equal area', 'azimuthal equidistant', 'conic equal area', 'conic conformal', 'conic equidistant', 'gnomonic', 'stereographic', 'mollweide', 'hammer', 'transverse mercator', 'albers usa', 'winkel tripel', 'aitoff', 'sinusoidal']
-    #brands = pd.read_csv("../../Data/Norm/brandz.csv")
+    #brands = pd.read_csv("Dta/../../Data/Norm/brandz.csv")
     
     def get_brands(self):
-        return pd.read_csv("../../Data/Norm/brandz.csv")
+        return pd.read_csv("Dta/../../Data/Norm/brandz.csv")
         

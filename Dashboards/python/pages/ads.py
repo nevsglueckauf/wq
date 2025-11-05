@@ -3,19 +3,19 @@ import plotly.express as px
 import pandas as pd
 import dash_ag_grid as dag
 import plotly.graph_objects as go
-from dd import DD
+from wtf.dd import DD
 
 register_page(__name__)
 
 sub_title = "📈 Werbeerfolgsmessung"
-df = pd.read_csv('output/sorted_all_ads.csv')
+df = pd.read_csv('Dta/output/sorted_all_ads.csv')
 df['Datum'] = pd.to_datetime(df['Datum'], format='%Y-%m-%d')
 
 colz = ['Datum', 'Impressionen', 'Klicks', 'Kosten', 'CPC', 'CTR', 'Provider']
 flt_colz = ['Impressionen', 'Klicks', 'Kosten', 'CPC', 'CTR']
 col_chosen = ['Impressionen']
 
-sales = pd.read_csv("exporte/total_sales_month.csv")
+sales = pd.read_csv("Dta/exporte/total_sales_month.csv")
 df['Datum'] = pd.to_datetime(sales['Datum'], format='%Y-%m-%d')
 
 # Initialer Graph
