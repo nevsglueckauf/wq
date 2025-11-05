@@ -1,5 +1,5 @@
 # <img src="../assets/whisk_rox.png"> Data on the Rocks
-## Whisky Tumber Foo wtf
+## Whisky Tumbler Foo wtf
 
 Package-Name für die selbst gecodeten Python-Scripte
 
@@ -7,7 +7,6 @@ Package-Name für die selbst gecodeten Python-Scripte
 - Datenbereinigungstools
 - HTML-Generierung (<abbr title="Don't repeat yourself">DRY</abbr>)
 - SQL-Generierung
-
 
 ### wtf.container 
 
