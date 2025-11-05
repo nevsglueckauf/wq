@@ -4,7 +4,7 @@
 
 > [!NOTE]  
 > Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.)
-> -> für **Win**tendo Boxen mit Hinweisen
+> -> für **Win**tendo Boxen mit Hinweisen (:rofl:)
 
 ## Repo clonen
 

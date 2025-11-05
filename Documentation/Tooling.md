@@ -14,13 +14,14 @@ Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
 - Dashboard(s)
 - Admin-Tool (Import neuer Daten, Definition von KPIs, Diagrammwahl)
 - Export der Daten (mit Filter-, Sortierkriterien) nach:
+
     - SQL
     - CSV
     - XML
 
-Hierzu wurden neben der Verwendung der erwähnten Bibliotheken (Numpy, Pandas, PX, Dash) diverse Helferklassen erstellt [(im Package WhiskyTeleFoo: ```wtf```)](../Dashboards/python/wtf/README.md)
+Hierzu wurden neben der Verwendung der erwähnten Bibliotheken (Numpy, Pandas, PX, Dash) diverse Helferklassen erstellt [(im Package WhiskyTumblerFoo: ```wtf```)](../Dashboards/python/wtf/README.md)
 
-### SQL 
+### SQL
 
 - RDBMS: Postgres,  SQLite und generisches SQL
 
