@@ -5,9 +5,15 @@
 
 | Abk.   |      Begriff      |  Beschreibung |
 |----------|:-------------:|------:|
-| CPC |Costs Per Click | Kosten je Klick |
-| CR |Conversion Rate   |   ... |
-| CSV|Comma Separated Values |    |
+|CPC| Costs Per Click|   ... |
+|CR| Conversion Rate|   ... |
+|CSV| Comma Separated Values|   ... |
+|CTR| Click-Through-Rate|   ... |
+|DRY| Don't Repeat Yourself|   ... |
+|HTML| Hypertext Markup Language|   ... |
+|KPI| Key Performance Indicator|   ... |
+|SQL| Strucutred Query Language|   ... |
+|XML| Extensible Markup Language|   ... |
 
  
 > [!NOTE]  
