@@ -1,9 +1,10 @@
 # SBA
+
 ## Tooling
 
 ### Knime (First look, EDA & Data Partitioning)
 
-### Python 3.13 
+### Python 3.14
 
 Die Verwendung von Python umfasst die folgenden Aufgabenbreiche:
 
