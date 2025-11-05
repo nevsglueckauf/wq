@@ -54,7 +54,7 @@
 
 <kbd><span style="color:green">(.venv)</span> user@Thanos wq% python app.py</kbd>
 
-### mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
+oder mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```:
 
 <kbd><span style="color:green">(.venv)</span> user@Thanos wq% python app.py > /dev/null  2>&1 &</kbd>
 
