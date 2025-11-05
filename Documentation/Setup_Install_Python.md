@@ -1,9 +1,14 @@
 # <img src="../Dashboards/python/assets/whisk_rox.png"> „Data on the rocks“
 
+> [!TIP]  
+> Shell- und Batch-Scripte zum setup gibt es [hier](../toolz/)
+
+
+
 ## Setup Beispiel für X
 
-> [!TIP]  
-> Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.) 
+> [!NOTE]  
+> Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.)
 > -> für **Win**tendo Boxen mit Hinweisen
 
 ## Repo clonen
