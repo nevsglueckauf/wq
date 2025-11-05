@@ -3,7 +3,9 @@
 > [!CAUTION]  
 > Hier (```Dashboards/Python```) wird noch aufgeräumt und die Dateistruktur ggf. angepasst
 
-## #Aktuell 
-- [x] Mehrfache *.py entfernt
-- [ ] Ordner ```kaggle_san```, ```exporte```und ```output``` zusammenführen!
-- [x] *berflüssige *.py Dateien entfernen
+## Aktuelle Todos
+
+- [x] Mehrfache app*.py entfernen
+- [x] Ordner ```kaggle_san```, ```exporte```und ```output``` zusammenführen!
+- [x] überflüssige *.py Dateien entfernen
+- [x] Auskommentierungen gelöscht
