@@ -28,7 +28,15 @@ from wtf.container import Container
 
 
 class ElementBuilder:
+    """ Klasse zur Erzeugung von HTML
+        - dropdown()
+        - Card()
+        - Row()
+        - Col()
+        - Rows()
 
+    
+    """
     title_el = "h3"
     id = 333
     def __init__(self):

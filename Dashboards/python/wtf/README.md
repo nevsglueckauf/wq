@@ -1,4 +1,5 @@
-# Whisky Tele Foo wtf
+# <img src="../assets/whisk_rox.png"> Data on the Rocks
+## Whisky Tumber Foo wtf
 
 Package-Name für die selbst gecodeten Python-Scripte
 
@@ -8,28 +9,28 @@ Package-Name für die selbst gecodeten Python-Scripte
 - SQL-Generierung
 
 
-## wtf.container 
+### wtf.container 
 
  - Klasse, um (HTML-) Container zu verwalten und dem DRY-Prinzip Folge zu leisten
 
-## wtf.provider 
+### wtf.provider 
 
  - Content für GUI managen
 
 
- ## wtf.sanitize
+ ### wtf.sanitize
 
  - Generische Klasse für die Datenbereinigung
 
- ## wtf.generic_elements
+ ### wtf.generic_elements
 
  - Generische Klasse für die Erzeugung von HTML; DRY
 
-## wtf.factory
+### wtf.factory
 
  - Factory für die Erzeugung von HTML; DRY
 
- ### Klassendiagramm
+ #### Klassendiagramm
 ```mermaid
  ---
 title: Helper
@@ -83,4 +84,20 @@ classDiagram
     class DataFrame{
 
     }
+```
+
+### Foo
+
+```mermaid
+architecture-beta
+    group api(logos:aws-lambda)[API]
+
+    service db(logos:aws-aurora)[Database] in api
+    service disk1(logos:aws-glacier)[Storage] in api
+    service disk2(logos:aws-s3)[Storage] in api
+    service server(logos:aws-ec2)[Server] in api
+
+    db:L -- R:server
+    disk1:T -- B:server
+    disk2:T -- B:db
 ```
