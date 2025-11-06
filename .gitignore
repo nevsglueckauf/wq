@@ -213,3 +213,4 @@ BigDataSets/*
 sort.txt
 san_*
 house_prices.csv
+.metadata/

@@ -1,2 +1,0 @@
-/Users/svenschrodt/projx/final_proj_dcda/wq/Data/Datensätze_roh/Sitzungsverfolgung - Referrer nach Zeit, Sitzungsdauer und Aktionen - 2024-08-31 - 2025-08-31.csv
-/Users/svenschrodt/projx/final_proj_dcda/wq/Data/Datensätze_roh/Gesamtumsatz nach Vertriebskanal - 2024-10 - 2025-08.csv
