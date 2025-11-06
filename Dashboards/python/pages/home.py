@@ -7,10 +7,10 @@ import base64
 import datetime
 import io
 
-register_page(__name__, path="/")
+register_page(__name__, path="/") 
 
 # Mapping der Karten zu Seiten
-page_mapping = {
+page_mapping = {     
     "Werbeerfolge": "/ads",
     "Sitzungstypen": "/funnel",
     "Geodaten": "/geo",
@@ -23,19 +23,21 @@ page_mapping = {
 
 # Größere CSS für die Karten
 analysis_card_style = {
-    'backgroundColor': '#ffffff',
-    'padding': '30px 20px',  
-    'borderRadius': '12px',   
-    'boxShadow': '0 4px 8px rgba(0,0,0,0.15)',  
-    'border': '1px solid #e0e0e0',
-    'transition': 'all 0.3s ease',
-    'cursor': 'pointer',
-    'minHeight': '140px',     
-    'display': 'flex',
-    'flexDirection': 'column',
-    'justifyContent': 'center',
-    'alignItems': 'center'
+    'backgroundColor': '#ffffff'
 }
+# ,
+#     'padding': '30px 20px',  
+#     'borderRadius': '12px',   
+#     'boxShadow': '0 4px 8px rgba(0,0,0,0.15)',  
+#     'border': '1px solid #e0e0e0',
+#     'transition': 'all 0.3s ease',
+#     'cursor': 'pointer',
+#     'minHeight': '140px',     
+#     'display': 'flex',
+#     'flexDirection': 'column',
+#     'justifyContent': 'center',
+#     'alignItems': 'center'
+# }
 
 layout = html.Div([
     # Header mit Gradient
@@ -82,7 +84,7 @@ layout = html.Div([
                         html.Div("📈", style={'fontSize': '3rem', 'marginBottom': '15px'}),  
                         html.Div("Werbeerfolge", style={'fontWeight': '600', 'fontSize': '1.1rem'})  
                     ], style=analysis_card_style),
-                    href=page_mapping["Werbeerfolge"],
+                    href="/ads",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
                 
@@ -92,7 +94,7 @@ layout = html.Div([
                         html.Div("🔄", style={'fontSize': '3rem', 'marginBottom': '15px'}),
                         html.Div("Sitzungstypen", style={'fontWeight': '600', 'fontSize': '1.1rem'})
                     ], style=analysis_card_style),
-                    href=page_mapping["Sitzungstypen"],
+                    href="/sessions",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
              
@@ -102,7 +104,7 @@ layout = html.Div([
                         html.Div("🌍", style={'fontSize': '3rem', 'marginBottom': '15px'}),
                         html.Div("Geodaten", style={'fontWeight': '600', 'fontSize': '1.1rem'})
                     ], style=analysis_card_style),
-                    href=page_mapping["Geodaten"],
+                    href="/geo",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
                 
@@ -112,7 +114,7 @@ layout = html.Div([
                         html.Div("🎯", style={'fontSize': '3rem', 'marginBottom': '15px'}),
                         html.Div("KPIs", style={'fontWeight': '600', 'fontSize': '1.1rem'})
                     ], style=analysis_card_style),
-                    href=page_mapping["KPIs"],
+                    href="/kpi",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
                 
@@ -122,7 +124,7 @@ layout = html.Div([
                         html.Div("📦", style={'fontSize': '3rem', 'marginBottom': '15px'}),
                         html.Div("Produkte", style={'fontWeight': '600', 'fontSize': '1.1rem'})
                     ], style=analysis_card_style),
-                    href=page_mapping["Produkte"],
+                    href="/products",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
                 
@@ -132,7 +134,7 @@ layout = html.Div([
                         html.Div("💰", style={'fontSize': '3rem', 'marginBottom': '15px'}),
                         html.Div("Umsätze", style={'fontWeight': '600', 'fontSize': '1.1rem'})
                     ], style=analysis_card_style),
-                    href=page_mapping["Umsätze"],
+                    href="/sales",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
                 
@@ -142,7 +144,7 @@ layout = html.Div([
                         html.Div("🔍", style={'fontSize': '3rem', 'marginBottom': '15px'}),
                         html.Div("Sitzungsanalysen", style={'fontWeight': '600', 'fontSize': '1.1rem'})
                     ], style=analysis_card_style),
-                    href=page_mapping["Sitzungsanalysen"],
+                    href="/sessions",
                     style={'textDecoration': 'none', 'color': 'inherit'}
                 ),
             ], style={
@@ -174,7 +176,7 @@ layout = html.Div([
                                      'cursor': 'pointer',
                                      'fontWeight': '500'
                                  }),
-                        href=page_mapping["Admin Panel"],
+                        href="/admin",
                         style={'textDecoration': 'none', 'color': 'inherit'}
                     ),
                 ])
