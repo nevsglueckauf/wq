@@ -94,7 +94,7 @@ app.index_string = '''
             
             /* Verbesserte Card Styles */
             .custom-card {
-                background: white;
+                
                 border-radius: 12px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
                 border: none;

@@ -1,0 +1,22 @@
+{
+  "version" : "5.8.0.v202510131944",
+  "projects" : [ {
+    "name" : "251007_umsatz-prediction-endversion",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "251007_umsatz-prediction-endversion"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "251007_umsatz-prediction-endversion",
+    "timeUsed" : "2025-11-05T16:57:16.090264+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "251007_umsatz-prediction-endversion"
+    }
+  } ]
+}
