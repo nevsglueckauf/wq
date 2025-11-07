@@ -20,6 +20,9 @@ df['Datum'] = pd.to_datetime(sales['Datum'], format='%Y-%m-%d')
 
 # Initialer Graph
 bar = px.bar(df, x="Datum", y=col_chosen, color='Provider')
+ymax = df["Impressionen"].max()
+bar.update_yaxes(range=[0, ymax])
+
 
 @callback(
     Output(component_id="var-ads-controls-and-graph", component_property="figure"),
