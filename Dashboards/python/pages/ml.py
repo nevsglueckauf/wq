@@ -38,9 +38,20 @@ layout = html.Div([
         id='dropdown',
         options=["Lin. Regression", "Decision Tree", "k-NN"],
         value='k-NN',
-        clearable=False
+        clearable=False,
+        style={
+        #'background': 'linear-gradient(135deg, #2E86AB 0%, #1A535C 100%)',
+        'padding': '5px 3px',
+        'borderRadius': '2px 2px 0 0',
+        'marginBottom': '30px'
+    }
     ),
-    dcc.Graph(id="graph"),
+    dcc.Graph(id="graph", style={
+        'background': 'linear-gradient(135deg, #2E86AB 0%, #1A535C 100%)',
+        'padding': '40px 20px',
+        'borderRadius': '10px 10px 0 0',
+        'marginBottom': '8px'
+    }),
 ])
 
 @callback(
