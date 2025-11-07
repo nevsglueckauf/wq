@@ -57,7 +57,7 @@ layout = html.Div([
                        'marginBottom': '15px',
                        'fontWeight': '600'
                    }),
-            html.P(f"Aktueller Zeitpunkt: {s}", 
+            html.P(f"Aktueller Zeitpunkt: {s[:16]}", 
                    style={
                        'color': '#666',
                        'marginBottom': '10px'
