@@ -42,7 +42,7 @@ class DD:
     
     prd_trans = {
         "prod_name": "Produktname",
-        "invent_start": "Inventareinheiten zum Ende",
+        "invent_start": "Inventareinheiten zu Beginn",
         "invent_end": "Inventareinheiten zum Ende",
         "sold_units": "Verkaufte Inventareinheiten",
         "sell_rate": "Verkaufsrate"
@@ -77,5 +77,5 @@ class DD:
         "sessions": "Sitzungen",
     }
 
-
+    
 # cloc --by-file --fullpath --match-d 'dash'

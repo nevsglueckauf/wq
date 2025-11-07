@@ -9,15 +9,15 @@ register_page(__name__)
 # Daten laden
 sub_title = DD.pages['Products']
 df = pd.read_csv('Dta/Whiskyquartier_Rohdaten/products.csv')
-df["short"] = df["prod_name"].str[0:14]
+df["Produkt"] = df["prod_name"].str[0:14]
 
 colz2 = ["invent_start","invent_end","sold_units","sell_rate"]
 colz = ["prod_name","invent_start","invent_end","sold_units","sell_rate"]
-strt_colz = ["short"]
+strt_colz = ["Produkt"]
 lbl = {x: DD.prd_trans for x in colz} 
 
 # Graph mit modernem Styling
-fig = px.line(df, x="short", y=colz2, labels=lbl)
+fig = px.line(df, x="Produkt", y=colz2, labels=lbl)
 fig.update_layout(
     plot_bgcolor='white',
     paper_bgcolor='white',
