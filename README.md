@@ -49,3 +49,9 @@ Das Endprodukt dieses Projekts ist ein umfassendes PowerBI-Dashboard, das:
 *   **Statusmeetings** finden alle zwei Wochen statt.
 *   Der laufende Austausch erfolgt über **WhatsApp und E-Mail**.
 *   Dieses GitHub-Repository dient als zentrale Quelle für Code, Dokumentation und Issue-Tracking.
+
+## 📊 Ergebnis
+*   Projektdokumentation: ..wq/Documentation/Projektdokumentation_Data_on_the_rocks
+*   PowerBI Dashboard: ..wq/Dashboards/PowerBI/whisky_dashboard_alpha
+*   Python Dashboard: ..wq/Documentation/Setup_Install_Python #Installationshilfe
+*                     ..wq/Dashboards/python/app.py
