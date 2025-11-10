@@ -12,7 +12,7 @@
 
 
 > [!TIP]  
-> Shell- und Batch-Scripte zum automatische **Setup** gibt es [hier](../toolz/)
+> Shell- und Batch-Scripte zum automatischen **Setup** gibt es [hier](../toolz/)
 
 ## Verzeichniswechsel
 

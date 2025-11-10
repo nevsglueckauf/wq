@@ -77,7 +77,7 @@ layout = html.Div([
                        'marginBottom': '15px',
                        'fontWeight': '600'
                    }),
-            dcc.Dropdown(['Umsatz Vert.', 'Sitzungen', 'CR'], 'Sitzungen', id='demo-dropdown'),       
+            dcc.Dropdown(['Umsatz Vertriebskanal', 'Sitzungen', 'CR'], 'Sitzungen', id='demo-dropdown'),       
             dcc.Upload(
                 id="upload-data",
                 children=html.Div([
