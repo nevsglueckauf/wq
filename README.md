@@ -54,4 +54,4 @@ Das Endprodukt dieses Projekts ist ein umfassendes PowerBI-Dashboard, das:
 *   Projektdokumentation: ..wq/Documentation/Projektdokumentation_Data_on_the_rocks
 *   PowerBI Dashboard: ..wq/Dashboards/PowerBI/whisky_dashboard_alpha
 *   Python Dashboard: ..wq/Documentation/Setup_Install_Python #Installationshilfe
-*                     ..wq/Dashboards/python/app.py
+*   ../wq/Dashboards/python/app.py
