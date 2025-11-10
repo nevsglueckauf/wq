@@ -21,7 +21,16 @@ df['Datum'] = pd.to_datetime(sales['Datum'], format='%Y-%m-%d')
 # Initialer Graph
 bar = px.bar(df, x="Datum", y=col_chosen, color='Provider')
 ymax = df["Impressionen"].max()
-bar.update_yaxes(range=[0, ymax])
+bar.update_layout(yaxis_range=[0, 5000])
+
+
+#df = sales
+bar.add_trace(go.Scatter(
+    name="Nettoumsatz",
+    mode="markers+lines", x=sales["Datum"], y=sales["Nettoumsatz"],
+    marker_symbol="star"
+))
+#bar.update_yaxes(range=[0, 4500], labels={'x': 'Datum', 'y':'Wert'})
 
 
 @callback(
@@ -30,7 +39,12 @@ bar.update_yaxes(range=[0, ymax])
 )
 def update_graph(col_chosen):
     bar = px.bar(df, x="Datum", y=col_chosen, color='Provider')
-    
+    bar.add_trace(go.Scatter(
+    name="Nettoumsatz",
+    mode="markers+lines", x=sales["Datum"], y=sales["Nettoumsatz"],
+    marker_symbol="star"
+    ))
+    bar.update_layout(yaxis_range=[0, 5000])
     # Modernes Styling für den Graph
     bar.update_layout(
         plot_bgcolor='white',
@@ -39,8 +53,8 @@ def update_graph(col_chosen):
         title_font=dict(size=20, color='#2E86AB'),
         hoverlabel=dict(bgcolor='#2E86AB', font_color='white')
     )
-    bar.update_xaxes(gridcolor='#f0f0f0')
-    bar.update_yaxes(gridcolor='#f0f0f0')
+    # bar.update_xaxes(gridcolor='#f0f0f0')
+    # bar.update_yaxes(gridcolor='#f0f0f0')
     return bar
 
 layout = html.Div([
@@ -70,13 +84,9 @@ layout = html.Div([
     html.Div([
         # Dropdown Controls
         html.Div([
-            html.H4("Metriken auswählen", 
-                   style={
-                       'color': '#2E86AB',
-                       'marginBottom': '15px',
-                       'fontWeight': '600',
-                       'fontSize': '1.3rem'
-                   }),
+            html.P("Metriken auswählen", 
+                  ),
+            html.H5("Werbung / Umsatz"),      
             dcc.Dropdown(
                 id="ads-controls-and-check-item",
                 options=[{"label": k, "value": k} for k in flt_colz],
@@ -98,13 +108,13 @@ layout = html.Div([
         
         # Graph Section
         html.Div([
-            html.H4("Visualisierung", 
-                   style={
-                       'color': '#2E86AB',
-                       'marginBottom': '20px',
-                       'fontWeight': '600',
-                       'fontSize': '1.5rem'
-                   }),
+            # html.H4("Visualisierung", 
+            #        style={
+            #            'color': '#2E86AB',
+            #            'marginBottom': '20px',
+            #            'fontWeight': '600',
+            #            'fontSize': '1.5rem'
+            #        }),
             dcc.Graph(figure=bar, id="var-ads-controls-and-graph",
                      style={
                          'border': '1px solid #e0e0e0',

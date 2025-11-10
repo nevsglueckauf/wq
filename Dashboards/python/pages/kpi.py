@@ -208,7 +208,7 @@ layout = html.Div([
         
         # Data Grid Section
         html.Div([
-            html.H4("Detaillierte KPIs", 
+            html.H4("Rohdaten", 
                    style={
                        'color': '#2E86AB',
                        'marginBottom': '20px',

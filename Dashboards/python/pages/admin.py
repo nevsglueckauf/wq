@@ -77,6 +77,7 @@ layout = html.Div([
                        'marginBottom': '15px',
                        'fontWeight': '600'
                    }),
+            dcc.Dropdown(['Umsatz Vert.', 'Sitzungen', 'CR'], 'Sitzungen', id='demo-dropdown'),       
             dcc.Upload(
                 id="upload-data",
                 children=html.Div([
@@ -104,36 +105,36 @@ layout = html.Div([
         }),
         
         # Power Button Control
-        html.Div([
-            html.H4("Systemsteuerung", 
-                   style={
-                       'color': '#2E86AB',
-                       'marginBottom': '15px',
-                       'fontWeight': '600'
-                   }),
-            html.Div([
-                daq.PowerButton(
-                    id="our-power-button-1", 
-                    on=False,
-                    color="#2E86AB",
-                    size=100
-                ),
-                html.Div(id="power-button-result-1",
-                        style={
-                            'marginTop': '15px',
-                            'fontWeight': '500',
-                            'color': '#2E86AB'
-                        }),
-            ], style={
-                'textAlign': 'center',
-                'padding': '20px'
-            })
-        ], style={
-            'backgroundColor': '#f8f9fa',
-            'padding': '20px',
-            'borderRadius': '8px',
-            'marginBottom': '25px'
-        }),
+        # html.Div([
+        #     html.H4("Systemsteuerung", 
+        #            style={
+        #                'color': '#2E86AB',
+        #                'marginBottom': '15px',
+        #                'fontWeight': '600'
+        #            }),
+        #     html.Div([
+        #         daq.PowerButton(
+        #             id="our-power-button-1", 
+        #             on=False,
+        #             color="#2E86AB",
+        #             size=100
+        #         ),
+        #         html.Div(id="power-button-result-1",
+        #                 style={
+        #                     'marginTop': '15px',
+        #                     'fontWeight': '500',
+        #                     'color': '#2E86AB'
+        #                 }),
+        #     ], style={
+        #         'textAlign': 'center',
+        #         'padding': '20px'
+        #     })
+        # ], style={
+        #     'backgroundColor': '#f8f9fa',
+        #     'padding': '20px',
+        #     'borderRadius': '8px',
+        #     'marginBottom': '25px'
+        # }),
         
         # Upload Results
         html.Div(id="output-data-upload"),

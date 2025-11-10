@@ -21,6 +21,7 @@ autonumber
 
     box gray Datenquellen
     participant CSV
+    participant SQL
     end
     
     User-Agent->>Flask: Anfrage URI
@@ -32,6 +33,7 @@ autonumber
     Pandas ->> Dash: Daten aufbereitet weiterleiten
     Pandas ->> Plotly: Charts/Plots erstellen
     Pandas ->> Flask: Webinhalte anfordern 
+    Pandas ->> SQL: Daten persistieren 
     Flask --> Flask: Generiere HTML, CSS, Javascript
     
     Flask->>User-Agent: Webinhalte liefern

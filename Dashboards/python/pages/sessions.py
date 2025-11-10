@@ -15,7 +15,7 @@ df["datum"] = pd.to_datetime(df["datum"], format="%Y-%m-%d")
 df["Sitzung_min"] = round(df["session_duration"] / 60, 2)
 
 # Scatter Plot mit Error Bars
-fig_scatt = go.Figure(data=go.Scatter(
+fig = go.Figure(data=go.Scatter(
     x=df["datum"],
     y=df["sessions"],
     error_y=dict(
@@ -26,19 +26,19 @@ fig_scatt = go.Figure(data=go.Scatter(
 ))
 
 # Modernes Styling für Scatter Plot
-fig_scatt.update_layout(
+fig.update_layout(
     plot_bgcolor='white',
     paper_bgcolor='white',
     font=dict(color='#2E86AB'),
     title_font=dict(size=20, color='#2E86AB'),
     hoverlabel=dict(bgcolor='#2E86AB', font_color='white')
 )
-fig_scatt.update_xaxes(gridcolor='#f0f0f0')
-fig_scatt.update_yaxes(gridcolor='#f0f0f0')
+fig.update_xaxes(gridcolor='#f0f0f0')
+fig.update_yaxes(gridcolor='#f0f0f0')
 
 # Bar Chart
 opt = [{"label": k, "value": k} for k in DD.session_y]
-start_val = 'sessions'
+start_val = ['sess_co', 'sess_co_done']
 fig = px.bar(df, x="datum", y=start_val, color='sug_platform')
 
 # Modernes Styling für Bar Chart
@@ -95,14 +95,14 @@ layout = html.Div([
     html.Div([
         # Scatter Plot Section
         html.Div([
-            html.H4("Sitzungen mit Error Bars", 
+            html.H4("Sitzungen nach Empfehlungsplattform", 
                    style={
                        'color': '#2E86AB',
                        'marginBottom': '20px',
                        'fontWeight': '600',
                        'fontSize': '1.5rem'
                    }),
-            dcc.Graph(figure=fig_scatt, id="sess_scatter",
+            dcc.Graph(figure=fig, id="sess_scatter",
                      style={
                          'border': '1px solid #e0e0e0',
                          'borderRadius': '8px',
@@ -142,7 +142,29 @@ layout = html.Div([
             'marginBottom': '25px'
         }),
         
-        # Date Picker Section
+       
+        
+        # Bar Chart Section
+        html.Div([
+            html.H4("Sitzungsverteilung", 
+                   style={
+                       'color': '#2E86AB',
+                       'marginBottom': '20px',
+                       'fontWeight': '600',
+                       'fontSize': '1.5rem'
+                   }),
+            dcc.Graph(figure=fig, id="controls-and-graph",
+                     style={
+                         'border': '1px solid #e0e0e0',
+                         'borderRadius': '8px',
+                         'padding': '15px',
+                         'backgroundColor': 'white',
+                         'height': '600px'  # Vergrößert
+                     })
+        ], style={
+            'marginBottom': '30px'
+        }),
+         # Date Picker Section
         html.Div([
             html.H4("Zeitraum auswählen", 
                    style={
@@ -166,28 +188,6 @@ layout = html.Div([
             'borderRadius': '8px',
             'marginBottom': '25px'
         }),
-        
-        # Bar Chart Section
-        html.Div([
-            html.H4("Sitzungsverteilung nach Plattform", 
-                   style={
-                       'color': '#2E86AB',
-                       'marginBottom': '20px',
-                       'fontWeight': '600',
-                       'fontSize': '1.5rem'
-                   }),
-            dcc.Graph(figure=fig, id="controls-and-graph",
-                     style={
-                         'border': '1px solid #e0e0e0',
-                         'borderRadius': '8px',
-                         'padding': '15px',
-                         'backgroundColor': 'white',
-                         'height': '600px'  # Vergrößert
-                     })
-        ], style={
-            'marginBottom': '30px'
-        }),
-        
         # Data Grid Section
         html.Div([
             html.H4("Sitzungsdaten", 

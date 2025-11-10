@@ -9,7 +9,8 @@ register_page(__name__)
 df_o = pd.read_csv("Dta/exporte/sess_loc_all.csv")
 df = df_o[["datum", "sess_ctry", "sess_loc", "sessions", "lng", "lat", "kontrollland"]]
 
-str_proj = "natural earth"
+#str_proj = "natural earth"
+str_proj = "winkel tripel"
 
 # Initialer Graph
 fig = px.scatter_geo(

@@ -62,7 +62,12 @@ layout = html.Div([
         ], style={
             'marginBottom': '30px'
         }),
-        
+        # Daterange Slider
+        dcc.DatePickerRange(
+        id='my-date-picker-range',
+        min_date_allowed=df['Datum'].min(),
+        max_date_allowed=df['Datum'].max(),
+        ),
         # Data Grid Section
         html.Div([
             html.H4("Rohdaten", 

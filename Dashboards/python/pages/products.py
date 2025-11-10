@@ -11,7 +11,8 @@ sub_title = DD.pages['Products']
 df = pd.read_csv('Dta/Whiskyquartier_Rohdaten/products.csv')
 df["Produkt"] = df["prod_name"].str[0:14]
 
-colz2 = ["invent_start","invent_end","sold_units","sell_rate"]
+#colz2 = ["invent_start","invent_end","sold_units","sell_rate"]
+colz2 = ["sold_units","sell_rate"]
 colz = ["prod_name","invent_start","invent_end","sold_units","sell_rate"]
 strt_colz = ["Produkt"]
 lbl = {x: DD.prd_trans for x in colz} 
